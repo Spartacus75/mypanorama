@@ -1,0 +1,647 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "e3baea54-6c43-11eb-bdeb-28c63f80549d",
+    "deck_config_uuid": "517b4894-6bbf-11eb-9dbd-28c63f80549d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": false,
+            "crowdanki_uuid": "517b4894-6bbf-11eb-9dbd-28c63f80549d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 1,
+                "leechFails": 10,
+                "minInt": 1,
+                "mult": 0.5
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 15,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 2.0,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 0.3,
+                "maxIvl": 150,
+                "minSpace": 1,
+                "perDay": 50
+            },
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "N1 JLPT - TRY - My Deck",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Généralités-6315a",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n{{Back}}</div>\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Forward",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "を皮切りに",
+                "をかわきりに<div><br></div><div>今回のコンサートツアーは名古屋で開催されるのを皮切りにして、全国20都市を回る予定です。</div><div><br></div><div>\"En commençant par...\", la même chose va continuer encore et encore. C'est souvent utilisé lorsque qqchose gagne en force ou se développe.</div><div><br></div><div>NB</div><div>Apparait aussi dans</div><div>「それなり」</div><div>「～ば～なり」</div>"
+            ],
+            "flags": 0,
+            "guid": "nvy25E7O4j",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "とあって",
+                "今日は夏休み最初のの日曜とあって全国の海水浴場は多くの人でにぎわった。<div><br></div><div>C'est un [X] de spécial. Pour parler de phénomènes sociaux ou de faits objectifs.</div>"
+            ],
+            "flags": 0,
+            "guid": "Exv#M,JwG3",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ならではの",
+                "<div>凍った湖の上でスケートは北国ならではの楽しい遊びだ。</div><br><div>AならではのB</div><div>Pour dire que la seule chose que A possède est une chose B spéciale</div>"
+            ],
+            "flags": 0,
+            "guid": "JWKLm]r:|w",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N + にもまして",
+                "論文が国際的に評価されてから　彼は以前にもまして研究に打ち込んでいる<div><br></div><div>Plus que。。。</div>"
+            ],
+            "flags": 0,
+            "guid": "erWj2Idnk",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N + 至るまでに",
+                "この博物館では明治時代から現在に至るまでのファッションを展示している<br><div><br></div><div>Jusqu'à.. (pour dire que cela couvre un large éventail, nombre ou détails).</div>"
+            ],
+            "flags": 0,
+            "guid": "oNw%)w&=2#",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N + からして",
+                "有名なデパートの店員は言葉遣いからして丁寧だ。<div><br></div><div>さすがもとバレリーナ。立っている姿からして美しい。</div><div><br></div><div>AからしてB</div><div>It is extremely B especially with regards to A.</div><div>A doit être qqchose qu'on l'a remarqué ou qui n'est pas le plus important pou ensuite dire que B est à un degré extrême.</div>"
+            ],
+            "flags": 0,
+            "guid": "eO:nZoJsjc",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+に至っては",
+                "調査によると昨年度の新卒者の就職率は大学卒業者は約55％、高校卒業者に至っては17％以下と過去最低の状況となったとのことだ。<div><div><div><br></div><div>Utilisé pour donner des exemples et à la fin on dit \" et dans le cas de ..., c'est encore plus...\"</div></div></div>"
+            ],
+            "flags": 0,
+            "guid": "v^<ER8=va>",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+といえども",
+                "雑草というどもそれぞれに名前がある。<div><br></div><div>Même,Même si...</div><div><br></div><div>N.B. Souvent on a l'expression cette expression avec:</div><div>世界広し、老いたり、小なり</div>"
+            ],
+            "flags": 0,
+            "guid": "N}jsIixo>3",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+余儀なくされる",
+                "景気悪化に伴い、工場は閉鎖をよぎなくされる。<div><br></div><div>Ce n'est pas une situation plaisante mais dans cette situation, il faut faire cela.</div><div><br></div><div>Souvent utilisé dans les nouvelles.</div>"
+            ],
+            "flags": 0,
+            "guid": "gQnE@?tUKM",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1+助数詞+たりとも+....+ない",
+                "私たちの税金は１円たりとも無駄に使ってほしくない。<div><br></div><div>Même pour juste un qqchose, je ne ferai absolument pas qqchose.</div>"
+            ],
+            "flags": 0,
+            "guid": "bY5<JkZ1Al",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vる/Vない　＋きらいがある",
+                "叔母は周りの人の気持ちを考えないきらいがあり、思ったことを何でも口にする。<br><div><br></div><div>Il y a a une tendance ou une disposition qui n'est pas bonne.</div><div><br></div><div>N.B : S'utilise souvent avec l'expression:</div><div>「～すぎのきらいがある」</div>"
+            ],
+            "flags": 0,
+            "guid": "P.{BM)Ef91",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "V+次第です",
+                "出張と重なってしまったために、会議を中止させていただいた次第です。<div><br></div><div>Equivalent de のです mais en beaucoup plus formel. Souvent utilisé en réunion ou business.</div>"
+            ],
+            "flags": 0,
+            "guid": "OKgOmcRaGm",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+をもって",
+                "重要議案は出席者の3分の2以上の賛成をもって承認されました。<div><br></div><div><ul><li>Meaning 1) by means of; with.</li><li>Meaning 2) at the time.</li></ul><div>Expression qui n'est pas utilisé pour les choses de tous les jours.</div></div>"
+            ],
+            "flags": 0,
+            "guid": "K^auh|iB)k",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "NあってのN",
+                "「皆さん、泊ってくださるお客様あっての旅館だということを忘れず、今日も笑顔で頑張りましょう。」<br><div><br></div><div>A　Qui　Depend de B</div>"
+            ],
+            "flags": 0,
+            "guid": "oX@Tdj4t5P",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vて+やまない",
+                "今年１年が平和な年になることを願ってやみません<div><br></div><div>Je pense/veux qqchose avec un grand désir ou depuis longtemps</div>"
+            ],
+            "flags": 0,
+            "guid": "e/(+jLZqJ$",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+まみれ",
+                "全身血まみれになった男性が担架に乗せられて事故現場から運び出された。<div><br></div><div>Pour exprimer qqchose de repugnant　En disant [Pleins de ...]</div><div><br></div><div><br></div><div>Souvent avec les mots comme</div><div>誇り　ほこり</div><div>汗　あせ</div><div>油　あぶら</div><div>泥　どろ</div>"
+            ],
+            "flags": 0,
+            "guid": "eYS=V*YAp+",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+をよそに",
+                "教授の再三の注意をよそに学生は授業中も携帯電話をいじっている。<br><div><br></div><div>Sans tenir compte,　Sans donner de preavis,　Sans considerer...</div><div><br></div><div>NB</div><div>弄る　いじる　Tripoter, jouer avec</div>"
+            ],
+            "flags": 0,
+            "guid": "q/}!3D(z:}",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+なり",
+                "日本語が上達したらしたなりに新しい疑問が次から次へ出てくる。<div><br></div><div>あの子は幼いなりに親を助けようと、いろいろ努力している</div><div><br></div><div>En&nbsp; Accord avec sa position ou ses limites, on fait qqchose autant qu on peut</div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "DQkT}qHH=w",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "V+ないでもない",
+                "彼が犯人だという証拠はないでもないがまだ断定はできない。<br><div><br></div><div>Il n est pas impossible que</div><div><br></div><div>NB</div><div>On peut aussi ecrire</div><div>ないものでもない</div><div>なくもない</div>"
+            ],
+            "flags": 0,
+            "guid": "C/:-AJ?fLB",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "V+しまつだ",
+                "彼は金にルーズで方々で借金を重ね、あげくの果てに会社のお金を使い込んで解雇されるしまつだ。<br><div><br></div><div>しまつだ　Explique le background pour les mauvaises choses, En exprimant le fait ou sentiment que cela est fortuit</div>"
+            ],
+            "flags": 0,
+            "guid": "oxdXE&WB/U",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "「N ou V」なり+「N ou V」なり",
+                "目が悪いなら眼鏡なりコンタクトなりすればいいのに。<div><br></div><div>食品の安全基準を見直すなり何なりして、より安全に暮らせるように考えてほしい。<br><div><br></div><div><br></div><div>Pour donner des exemples de bonnes choses que vous conseillez ou suggereZ</div><div><br></div><div>Souvent en deuxieme なり　On a 「なん　どこへ　だれ」</div></div>"
+            ],
+            "flags": 0,
+            "guid": "Qp]a1U^EG7",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+ずくめ",
+                "ご主人の昇進や娘さんの結婚など、山田さんの家はいいことずくめだ。<br><div><br></div><div>Est la plupart,Dans sa grande partie</div><div>QQ　Est continuellement。</div><div><br></div><div>Souvent avec les expressions,</div><div>黒</div><div>白</div><div>いいこと</div><div>失敗</div><div>規則</div>"
+            ],
+            "flags": 0,
+            "guid": "H{#8_plu]O",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "～はAにしてB",
+                "彼は大学の教授にして有名な作家でもある。<div><br></div><div>～Possede deux aspects [A et B]</div>"
+            ],
+            "flags": 0,
+            "guid": "iLFtn[IaMc",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N1+はおろか+N2+「も、さえ、まで、すら」＋...　ない",
+                "<div>最近は恋人はおろか友人さえ一人もいない人も珍しくないらしい、</div><br><div>Bien sur vous on ne peut pas N1　Mais meme pas N２Qui est en quantite plus petite</div>"
+            ],
+            "flags": 0,
+            "guid": "sow~K2igQM",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+すら",
+                "仕事が忙しすぎて、昼休みすら満足に取れない。<div><br></div><div>本に夢中になって、夜が明けたことにすら気がづかなかった。</div><div><br></div><div>Comme...,　Meme　N　Je ne pouvais pas　「Souvent negatif」</div>"
+            ],
+            "flags": 0,
+            "guid": "esp=`aIDHp",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+かたがた",
+                "上司が入院したので、お見舞いかたがた仕事の進め方について相談に行った。<div><br></div><div>お世話になった先輩のお宅へ、お礼かたがた新年の挨拶に伺った。<br><div><div><br></div><div>Faire B dans le but de faire A。 Souvent des expressions de mouvement.</div></div></div>"
+            ],
+            "flags": 0,
+            "guid": "eC$NvJ|(3]",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N ou V +　がてら",
+                "散歩がてら、コンビニで牛乳買ってきたよ。<div><br></div><div>出産した友達にお礼を届けがてら会いに行った。<br><div><br></div><div>Faire B en utilisant l opportunite A。Souvent expression de mouvement utilise</div></div>"
+            ],
+            "flags": 0,
+            "guid": "Jj:O(^y%oz",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "～とは　～だ",
+                "<div>有名なコーヒーショップだと聞いていたがコーヒー一XX2000円とは驚いたよ</div><br><div>Exprime une surprise un etonnement ou une admiration</div>"
+            ],
+            "flags": 0,
+            "guid": "sAXwiuCrhC",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "V+なり",
+                "<div>警部は受話器を置くなり、コートを片手に飛び出した。</div><div><br></div><div>彼女は立ち上がるなり、コップの水を彼の顔にかけた。</div><div><br></div>Pour dire qu il s est passe qqchose juste apres l action、、、<br>A utiliser pour dire lorsqu on est surpris par un event&nbsp; ou pour signaler le comportement etrange d une personne"
+            ],
+            "flags": 0,
+            "guid": "j(5L8HU6R7",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "～わ～わ",
+                "最近中村君どうしたんだろう、遅刻するわ宿題は忘れるわ。。。。<br><div><br></div><div>Pour citer une serie de prob ou de bonnes raisons de circonstances</div>"
+            ],
+            "flags": 0,
+            "guid": "Jyw;#CGyb{",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vる/Vた　＋　が早いか",
+                "店員がドアを開けるがはやいか、待っていた客がなだれ込んできた。<div><div><br></div><div>魔法使いが呪文を唱えるが早いか王子はたちまち蛙に変わった。</div><div><br></div><div>Immediatement　Apres que ...　Se soit passe「Ou au meme moment」、On est surpris par la rapidite de ce qui advient</div></div>"
+            ],
+            "flags": 0,
+            "guid": "BBAS2C*,~P",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vる/Vた　＋　そばから",
+                "父は肉が焼けるそばから私たちの皿にどんどん載せてくれた。<div><br></div><div>ゴミを片付けたそばからカラスが散らかすので、道が汚れて困る。<br><div><div><br></div><div><br></div><div>AそばからB。　B se passe juste apres A. Pour dire que ces actions se passent souvent ou bien qu en depit des efforts sur A, B se passe qd meme</div></div></div>"
+            ],
+            "flags": 0,
+            "guid": "I)}yc_n2^3",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vすにはおかない",
+                "「今度こそ犯人を捕まえずにはおかないぞ」と警部は心に誓った。<br><div><br></div><div>Exprimer la determination forte du locuteur. 「Ne pas abandonner jusqu a ce que...」「Faire absolument、、、」</div><div><br></div><div>S utilise aussi pour [Developpe naturellement un sentiment de...、Se developpe dans une situation de ]</div><div><br></div><div>大手の自動車のメーカーが倒産するようなことがあれば、多くの中小企業の経営危機を引き起こさずにはおかないだろう。</div>"
+            ],
+            "flags": 0,
+            "guid": "x9p-4J&<`V",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "V-た　＋　が最後",
+                "顧客からの信頼は一度失ったが最後、取り戻すことは難しいだろう。<br><div><br></div><div>「Si tu fais cam il se passe ca」。Ce n est pas qqchose de desirable pour　Le locuteur。</div>"
+            ],
+            "flags": 0,
+            "guid": "ew}?AwG(2[",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vて　＋　やる",
+                "<div>もう我慢できない。こんな会社辞めてやる。</div><div><br></div><div>何回も失敗したけど、今度こそ絶対頂上まで登ってやる。</div><div><br></div><div>Faire qqchose avec une forte emotion telle que la colere ou l insatisfaction。</div>"
+            ],
+            "flags": 0,
+            "guid": "hNo(DWI-N",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N + ともなると　/　ともなれば",
+                "総理大臣ともなると、その言動の一つ一つが大きな影響を与える。<br><div><br></div><div>Si dans la condition ou position de...、Naturelllement....　Se passe</div>"
+            ],
+            "flags": 0,
+            "guid": "EjNQ-9:{pZ",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pl　+　にひかえ",
+                "あの映画は前作の観客が250万人を超えたのに控え、続編は１００年人にも届かなかったそうだ。<br><div><br></div><div><br></div><div>Exprime un contraste,　D une part....　D autre part</div>"
+            ],
+            "flags": 0,
+            "guid": "g|x7n$o9P*",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N　+　もさることながら",
+                "少子化の原因は晩婚化もさることながら、教育費の負担の大きさにもある。<br><div><br></div><div>「Cette chose est important , Mais la chose chose qui suit est encore plus importante」</div>"
+            ],
+            "flags": 0,
+            "guid": "s(R`x~7&3H",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N1　+　であれ　、　N2　+　であれ",
+                "犬であれ猫であれ、このマンションでペットを飼うことは禁止されています。<br><div><br></div><div>Peu importe que ce soit A ou B,&nbsp;</div><div><br></div><div>VARIATION「疑問視」　+　N「Optional」　+　であれ</div><div>Meme si</div><div><br></div><div>たとえどんな理由であれ暴力は許されない。</div><div>どこであれ、あなたの行くところへ私もついていきたい。</div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "N9$X(&caEt",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+そくして<div>N+そくした+N</div>",
+                "<div>弊社は時代に即した経営によって、常に業界をリードしてまいります。</div><div><br></div>Prendre des actions ou mesures en ligne avec une experiencem une situation ou reglement"
+            ],
+            "flags": 0,
+            "guid": "B{cRRCPb/V",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N　+　をおいて他にありません",
+                "<div>地球の生態系を保全し、環境を守ることができるのは人類をおいて他にない。</div><div><br></div>「Il n y a que, seulement ... et rien d autre」"
+            ],
+            "flags": 0,
+            "guid": "qrUsKijIqL",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        }
+    ]
+}

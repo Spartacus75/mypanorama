@@ -1,0 +1,3360 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "e52e460f-6bc4-11eb-9634-28c63f80549d",
+    "deck_config_uuid": "425c6048-d62a-11ea-856a-28c63f80549d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "425c6048-d62a-11ea-856a-28c63f80549d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "All JLPT 2 Grammar1354448904",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "All JLPT 2 Grammar1354448904",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Grammar point",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Mincho",
+                    "media": [],
+                    "name": "Expression",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Andale Mono",
+                    "media": [],
+                    "name": "Meaning",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Reading",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Japanese Grammar",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        1
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span style=\"   \"><span style=\"\">{{furigana:Reading}}</span><br><span style=\"font-size: 50px; \">{{Grammar point}}</span> <br><div align=\"left\"><span style=\"font-family: Andale Mono; \">{{Meaning}}</span></div></span>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Recognition",
+                    "ord": 0,
+                    "qfmt": "<span style=\"   \"><span style=\"font-family: Mincho; font-size: 50px; \">{{Expression}}</span></span>"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span style=\"   \"><span style=\"\">{{furigana:Reading}}</span><br><span style=\"font-family: Mincho; font-size: 50px; \">{{Expression}}</span><br><div align=\"left\"><span style=\"font-family: Andale Mono; \">{{Meaning}}</span></div></span>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Recall",
+                    "ord": 1,
+                    "qfmt": "<span style=\"   \"><span style=\"font-size: 50px; \">{{Grammar point}}</span></span>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~あげく(に）<br />",
+                "さんざん迷ったあげく、大学院には行かないことにした。",
+                "意味： In the end; finally; on top of all that; to make matters worse. After a long time of... <br />接続： [動-た形；名-の]＋あげく<br />さんざん：severely; harshly; utterly; terrible; (P)",
+                "さんざん まよったあげく、 だいがくいん には いかないことにした。"
+            ],
+            "flags": 0,
+            "guid": "gO.af_F|h[",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "JLPT2",
+                "grammar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~あまり<br />",
+                "子どもの将来を思うあまり、厳しすぎることを言ってしまった。 ",
+                "意味： Do ~ so much as to ~<br />接続： [動-辞書形 / た形；な形-な；名-の]＋あまり",
+                "こどもの しょうらい を おもうあまり、 きびしすぎることを いってしまった。"
+            ],
+            "flags": 0,
+            "guid": "t#1UM-G;[1",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "JLPT2",
+                "grammar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~以上(は)<br>",
+                "例文：　日本に住んでいる以上、日本の法律を守らなければならない。<br>",
+                "意味：　Since<br>接続：　[動・い形・な形・名]の名詞修飾型＋以上　　　＜[な形-な；名-の]becomes [な形-である；名-である] ＞<br>類語：　「~からには」<br>注意：　often followed by obligations, prohibitions, demands, presumptions, and strong conclusions such as [なければならない /　てはいけない　/ てください　 / だろう]",
+                "れいぶん ：　 にっぽん に すんでいる いじょう 、 にっぽん の ほうりつ を まもらなければならない。<br />"
+            ],
+            "flags": 0,
+            "guid": "nB$A&[nOI.",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~一方 / ~一方では　<br>",
+                "私の仕事は夏は非常に忙しい一方、冬は暇になる。",
+                "意味：　While; Meanwhile　(shows a comparison between two things)<br>接続：　[動・い形・な形・名]の名詞修飾型＋一方　＜[な形・名] use [である]＞<br>",
+                "わたし の しごと は なつ は ひじょう に いそがしい いっぽう 、 ふゆ は ひま になる。"
+            ],
+            "flags": 0,
+            "guid": "c2Wdr.R`Xf",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~一方だ <br>",
+                "最近、パソコン通信の利用者は増える一方だ。",
+                "意味：　(no specific meaning) shows something continuing towards a certain tendency.　ex. more and more; less and less; keep on~; never stop~<br>接続：　[動-辞書形]＋一方だ<br>注意：　Uses verbs that show / express a change \t<br>",
+                "さいきん 、パソコン つうしん の りよう&nbsp;&nbsp;しゃ は ふえる いっぽう だ。"
+            ],
+            "flags": 0,
+            "guid": "eiseH4I=V|",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~うえ(に)<br>",
+                "今年のインフルエンザは高熱が出るうえ、せきもひどい。",
+                "意味：　In addition to~<br>接続：　[動・い形・な形・名]の名詞修飾型＋うえ<br>",
+                "ことし のインフルエンザは こうねつ が でるうえ、せきもひどい。"
+            ],
+            "flags": 0,
+            "guid": "h>}.Ht5(#u",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~上で(は) / ~上での / ~上でも / ~上の<br />",
+                "A: みんなの意見を聞いた上で決めました。 <br />B: 日本の会社で働く上で、注意しなければならないことは何でしょうか。",
+                "A意味： After...ing ; Upon…ing<br /> 接続： [動-た形；名-の]＋上で<br /><br />B意味： used when talking about something from a certain time, place, or condition　(often following sentence gives advice or warning)<br /> 接続：　[動-辞書形；名-の]＋上で",
+                "A:みんなの いけん を きいた うえ で きめました。<br />B: にっぽん の かいしゃ で はたらく うえ で、 ちゅうい しなければならないことは なに でしょうか。"
+            ],
+            "flags": 0,
+            "guid": "iGEt[C;gRj",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "JLPT2",
+                "grammar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~上は<br>",
+                "約束を結ぶ上は、条件を慎重に検討すべきである。",
+                "意味：　Now that~; Since~<br>接続：　[動-辞書形 / た形]＋上は<br>",
+                "やくそく を むすぶ うえ は、 じょうけん を しんちょう に けんとう すべきである。"
+            ],
+            "flags": 0,
+            "guid": "e4h]xDPtL]",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~(よ)うじゃないか / ~(よ)うではないか<br>",
+                "災害を受けた人々に救援物資を送ろうではないか。",
+                "意味：　Shall we~; Let's~<br>接続：　[動-意向形]＋ではないか",
+                "さいがい を うけた ひとびと に きゅうえん&nbsp;&nbsp;ぶっし を おくろうではないか。"
+            ],
+            "flags": 0,
+            "guid": "e<4bDNKb)j",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~うちに / ~ないうちに",
+                "A) 日本にいるうちに、一度京都を訪ねたいと思っている。<br>B) 寒かったが、走っているうちに体が暖かくなった。",
+                "&nbsp;&nbsp;A意味：　While~ &lt; do something before the condition changes &gt;<br><br>&nbsp;&nbsp;B意味：　While~ &lt; during that time, something that did not start, will happen &gt;<br>",
+                "A) にっぽん にいるうちに、 いちど&nbsp;&nbsp;きょうと を たずねたいと おもっている。<br />"
+            ],
+            "flags": 0,
+            "guid": "pEaG%f7U*x",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "JLPT2",
+                "grammar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~得る",
+                "考え得るかぎりの手は尽くしたが、問題の解決には至らなかった。",
+                "意味：　Be possible to~<br>接続：　[動-ます形]＋得る",
+                "かんがえ えるかぎりの て は つくしたが、 もんだい の かいけつ には いたらなかった。"
+            ],
+            "flags": 0,
+            "guid": "u3yGPr9,O:",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~得ない",
+                "こんな低い山で遭難することはあり得ないと思う。",
+                "意味：　Be impossible to~<br>接続：　[動-ます形]＋得ない",
+                "こんな ひくい やま で そうなん することはあり え ないと おもう。"
+            ],
+            "flags": 0,
+            "guid": "c?S4<npPDb",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~おかげだ / ~おかげで",
+                "科学技術が発達したおかげで、我々の生活は便利になった。",
+                "意味：　Thanks to~; Owing to~; Because of~　(express thanks to the result of a good outcome)<br />接続：　[動・い形・な形・名]の名詞修飾型＋おかげで<br />慣用：　おかげさまで　Thanks to you or some higher power",
+                "かがく&nbsp;&nbsp;ぎじゅつ が はったつ したおかげで、 われわれ の せいかつ は べんり になった。"
+            ],
+            "flags": 0,
+            "guid": "g@*5^h604p",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "JLPT2",
+                "grammar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~おそれがある",
+                "早く手術しないと、手遅れになるおそれがある。 ",
+                "意味：　Be in danger of~<br>接続：　[動-辞書形；名-の]＋おそれがある",
+                "はやく しゅじゅつ しないと、 ておくれになるおそれがある。"
+            ],
+            "flags": 0,
+            "guid": "r?d!6._9TO",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~かぎり(は) / ~かぎりでは / ないかぎり(は)",
+                "A) 日本にいるかぎり、タンさんは私に連絡してくれるはずだ。<br>B) 私が知っているかぎりでは、この本は今年一番よく売れたそうです。<br>C) 時間の許すかぎり、話し合いを続きましょう。<br>D) 雨や雪が降らないかぎり、毎日ジョギングを欠かさない。",
+                "A 意味：　As long as~ ; As far as~　&lt;during a specific time&gt;<br>　接続：　[動-辞書形；い形-い；な形-な；名-の / である]＋かぎり<br><br>B 意味：　As long as~ ; As far as~　&lt;show a specific range, limit, bound&gt;<br>　接続：　[動-辞書形 / た形]＋かぎりでは<br><br>C意味：　As long as~ ; As far as~　&lt;until a certain limit&gt;<br>　接続：　[動-辞書形；名-の]＋かぎり<br><br>D意味：　As long as~ ; As far as~　&lt;show a condition&gt;<br>　接続：　[動-ない形；い形-く；な形-で；名-で]＋ないかぎり",
+                "A) にっぽん にいるかぎり、タンさんは わたし に れんらく してくれるはずだ。<br /> B) わたし が しっているかぎりでは、この ほん は ことし&nbsp;&nbsp;いちばん よく うれたそうです。<br /> C) じかん の ゆるすかぎり、 はなしあいを つづきましょう。<br /> D) う や ゆき が ふらないかぎり、 まいにち ジョギングを かかさない。"
+            ],
+            "flags": 0,
+            "guid": "rJ?7t*YH]x",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~かけだ / ~かけの / ~かける<br>",
+                "この仕事はやりかけですから、そのままにしておいてください。",
+                "意味：　 Unfinished ; Half~ (ex. half eaten, half finished)<br>接続：　[動-ます形]＋かけだ",
+                "この しごと はやりかけですから、そのままにしておいてください。"
+            ],
+            "flags": 0,
+            "guid": "MZ~%1jC6W",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~がたい<br>",
+                "彼女がそんなことをするとは、信じがたい。",
+                "意味：　Can’t do~ ; Difficult to~<br>接続：　[動-ます形]＋がたい",
+                "かのじょ がそんなことをするとは、 しんじがたい。"
+            ],
+            "flags": 0,
+            "guid": "ny{ErPd(&#",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~がちだ / ~がちの<br>",
+                "雪が降ると、電車が遅れがちだ。",
+                "意味：　Tend to~<br>接続：　[動-ます形；名]＋がちだ<br>注意：　Used mostly with a negative meaning",
+                "ゆき が ふると、 でんしゃ が おくれがちだ。"
+            ],
+            "flags": 0,
+            "guid": "ubR;1Vfd>R",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~(か)と思うと / ~(か)と思ったら<br>",
+                "リ-さんは「さようなら」と言ったかと思うと教室を飛び出していった。",
+                "意味：　As soon as~<br>接続：　[動-た形]＋(か)と思うと",
+                "リ-さんは「さようなら」と いったかと おもうと きょうしつ を とびだしていった。"
+            ],
+            "flags": 0,
+            "guid": "p}$/8(O.8k",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~か~ないかのうちに<br>",
+                "ヘビ-スモ-カ- の彼は、タバコを一本吸い終わったか終わらないかのうちに、次のタバコに火をつけた。",
+                "意味：　No sooner than~<br>接続：　[動-辞書形 / た形]＋か＋[動-ない形]＋ないかのうちに<br>",
+                "ヘビ-スモ-カ-の かれ は、タバコを一 ほん&nbsp;&nbsp;すい おわったか おわらないかのうちに、<br />　　　　 じ のタバコに ひ をつけた。"
+            ],
+            "flags": 0,
+            "guid": "c.3HrB!tVJ",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~かねない<br>",
+                "あんなスピ-ドを出したら、事故を起こしかねない。",
+                "意味：　 Be capable of~ ; Be in danger of~ (Used when there is a chance of something bad happening)<br>接続：　[動-ます形]＋かねない",
+                "あんなスピ-ドを だしたら、 じこ を おこしかねない。"
+            ],
+            "flags": 0,
+            "guid": "ij5uE}5eVE",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~かねる<br>",
+                "そんな多額な寄付には応じかねます。",
+                "意味：　Be hard to~ ; Be difficult to~<br>接続：　[動-ます形]＋かねる",
+                "そんな たがく な きふ には おうじかねます。"
+            ],
+            "flags": 0,
+            "guid": "qQ*orao=Ax",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2",
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~かのようだ / ~かのような / ~かのように<br>",
+                "激しい雨と風は、まるで台風が来たかのようだ。",
+                "意味：　Like~<br>接続：　[動・い形・な形・名]の普通＋かのようだ　＜[な形・名] use [である]＞",
+                "はげしい あめ と かぜ は、まるで たいふう が き たかのようだ。"
+            ],
+            "flags": 0,
+            "guid": "j%b]+84VHy",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~からいうと / ~からいえば / ~からいって<br>",
+                "中国は人口からいうと世界一だが、人口密度は日本よりずっと低い。",
+                "意味：　Judging from~ ; When it comes to~; As for~<br>接続：　[名]＋からいうと<br>",
+                "ちゅうごく は じんこう からいうと せかいいち だが、 じんこう&nbsp;&nbsp;みつど は にっぽん よりずっと ひくい。"
+            ],
+            "flags": 0,
+            "guid": "bZ50xZss&|",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~からして <br />",
+                "A) 彼は礼儀を知らない。あいさつからして、きちんとしていない。<br>B) 窓ガラスが破られていることからして、泥棒はここから入ったに違いない。",
+                "接続：　[名]＋からして<br />A意味：　Even~<br>B意味：　Judging from~<br />",
+                "かれ は れいぎ を しらない。あいさつからして、きちんとしていない。"
+            ],
+            "flags": 0,
+            "guid": "fgoQJsUNGM",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~からすると / ~からすれば<br>",
+                "A) 親からすると、子供はいくつになっても子供で、心配なものだ。<br>B) あの車は形からすると１０年ぐらい前のものだと思う。",
+                "接続：　[名]＋からすると<br>A意味：　For~<br>B意味：　Judging from~<br>　類語：　「~から見ると」\\「~からして」B meaning<br>",
+                "A) おや からすると、 こども はいくつになっても こども で、 しんぱい なものだ。<br /> B)あの くるま は かたち からすると１０ ねん ぐらい まえ のものだと おもう。"
+            ],
+            "flags": 0,
+            "guid": "oapIK;]HC|",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~からといって<br>",
+                "お金があるからというと偉いわけではない。",
+                "意味：　Just because~<br>接続：　[動・い形・な形・名]の普通形＋からというと注意：　(often the sentence will be negative.)<br>",
+                "お かねがあるからというと えらいわけではない。"
+            ],
+            "flags": 0,
+            "guid": "q|:GoOz*l^",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~から~にかけて<br>",
+                "昨夜から今朝にかけて雨が降りました。",
+                "意味：　From~to~<br>接続：　[名]＋から＋[名]＋にかけて<br>",
+                "さくや から けさ にかけて あめ が おりました。"
+            ],
+            "flags": 0,
+            "guid": "mW#gP0.;b(",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~からには / ~からは<br>",
+                "試合に出るからには、勝ちたい。",
+                "意味：　Now that~ ; Since~<br>接続：　[動・い形・な形・名]の普通形＋からには　＜[な形・名] use [である]＞<br>注意：　followed by obligations, resolutions, presumptions, suggestions, and commands<br>",
+                "しあい に でるからには、 かちたい。"
+            ],
+            "flags": 0,
+            "guid": "swyvs>oYiT",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~から見て(も) / ~から見ると / ~から見れば",
+                "子共の教育という点から見ると、豊かすぎる生活は、必ずしもいいとは言えない。<br>",
+                "意味：　From the viewpoint of~<br>類語：　「~からいうと」<br>接続：　[名]＋から見ると",
+                "こ&nbsp;&nbsp;ども の きょういく という てん から みると、 ゆたかすぎる せいかつ は、 かならずしもいいとは いえない。<br />"
+            ],
+            "flags": 0,
+            "guid": "bC:R4nNTm`",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~かわりに",
+                "A) 音楽会に行くかわりに、ＣＤを３枚買うほうがいいと思う。<br>B) 病気の父のかわりに、私が参りました。<br>C) 私が料理するかわりに、あなたは掃除してください。 \t",
+                "Ａ意味：　Instead of~<br>　接続：　[動-辞書形]＋かわりに<br>Ｂ意味：　In place of~<br>　意味：　[名-の]＋かわりに<br>　類語：　「~にかわって」のＢの意味。<br>Ｃ意味：　Fitting of~; Suiting~; Be appropriate to<br>　接続：　[動・い形・な形・名]の名詞修飾型＋かわりに<br>",
+                "A) おんがく&nbsp;&nbsp;かい に いくかわりに、 しーでぃー を３ まい&nbsp;&nbsp;かうほうがいいと おもう。<br /> B)"
+            ],
+            "flags": 0,
+            "guid": "qV<y6fDy^%",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2",
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ぎみ気味<br>",
+                "仕事が忙しくて、最近少し疲れ気味だ。<br>",
+                "意味：　Rather~ ; A little~<br>接続：　[動-ます形；名]＋気味<br>",
+                "しごと が いそがしくて、 さいきん&nbsp;&nbsp;すこし つかれ ぎみ だ。<br />"
+            ],
+            "flags": 0,
+            "guid": "hB8{G{o*JP",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~きり(だ)<br>",
+                "A) 彼女は、何を聞いても笑っているきりで、答えない。<br>B) 寝たきり老人が増えている。<br>",
+                "A意味：　Only~ ; Just~<br>　接続：　[動-辞書形 / た形；名]＋きり<br>B意味：　(something continuing the same condition after happening)<br>　接続：　[動-た形]＋きり<br>注意：　In spoken language becomes 「~っきり」<br>",
+                "A) かのじょ は、 なに を きいても わらっているきりで、 こたえない。<br /> B)"
+            ],
+            "flags": 0,
+            "guid": "k{&eqx-_]`",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ きる / ~きれない/ ~きれる<br>",
+                "木村さんは疲れきった顔をして帰って来た。 \t",
+                "意味：　Do(be) completely~ / Be unable to do till the end / Be able to do till the end<br>接続：　[動-ます形]＋きる<br>",
+                "きむら さんは つかれきった かお をして かえって き た。"
+            ],
+            "flags": 0,
+            "guid": "g29j[(Qgk5",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~くせに",
+                "よく知らないくせに、あの人は何でも説明したがる",
+                "意味：　In spite of~ ; Though~<br>接続：　[動・い形・な形・名]の名詞修飾型＋くせに<br>注意：　Not often used in formal situations",
+                "よく しらないくせに、あの ひと は なに でも せつめい したがる"
+            ],
+            "flags": 0,
+            "guid": "m.Hp~}scN>",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~くらい(だ) / ~ぐらい(だ)",
+                "A) 棚から物が落ちるくらい地震があった。<br>B) 忙しくても電話をかけるくらいはできたでしょう。 \t<br>",
+                "Ａ意味：　To the extent that~ ; As~as~ ; To the point that<br>　接続：　[動-辞書形 / ない形-ない；い形-い；な形-な；名]＋くらい<br>Ｂ意味：　At least~<br>　接続：　[動-普通形；名-の]＋くらい",
+                "A) たな から もの が おちるくらい じしん があった。<br /> B) いそがしくても でんわ をかけるくらいはできたでしょう。<br />"
+            ],
+            "flags": 0,
+            "guid": "fxZ](=CLs+",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~げ",
+                "彼女は悲しげな様子で話した。",
+                "意味：　Seem~<br>接続：　[い形-○；な形-○]＋げ<br>注意：　~げ becomes a な形容詞<br>",
+                "かのじょ は かなしげな ようす で はなした。"
+            ],
+            "flags": 0,
+            "guid": "u)q3$rN;w3",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~こそ / ~からこそ",
+                "今度こそ試合に勝ちたい。<br>",
+                "意味：　emphatic (Place a strong emphasis on the subject)<br>接続：　[名]＋こそ<br>",
+                "こんど こそ しあい に かちたい。<br />"
+            ],
+            "flags": 0,
+            "guid": "eL!IayqP,{",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ことか<br>",
+                "息子から半年も連絡がない。一体何をしていることか<br>",
+                "意味：　I wonder ; quite ; surely<br>接続：　[動・い形・な形]の名詞修飾型＋ことか<br>",
+                "むすこ から はんとし も れんらく がない。 いったい&nbsp;&nbsp;なに をしていることか< br>"
+            ],
+            "flags": 0,
+            "guid": "b(l[D{|P+b",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ことから<br>",
+                "道がぬれていることから、昨夜、雨が降ったことがわかった。<br>",
+                "意味：　Because~ (tells why something is)<br>接続：　[動・い形・な形・名]の名詞修飾型＋ことから &lt;[名]uses [である]、[な形]sometimes uses[である]&gt;<br>",
+                "みち がぬれていることから、 さくや 、 あめ が ふったことがわかった。< br>"
+            ],
+            "flags": 0,
+            "guid": "t.es/skC{~",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ことだ<br>",
+                "大学に入りたければ、一所懸命勉強することだ。<br>",
+                "意味：　 When you want to tell someone that something has importance<br>接続：　[動-辞書形 / ない形-ない]＋ことだ<br>",
+                "だいがく に はいりたければ、 いっしょけんめい&nbsp;&nbsp;べんきょう することだ。<br />"
+            ],
+            "flags": 0,
+            "guid": "km^nW.ziyY",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ことだから<br>",
+                "子供のことだから、少しぐらいいたずらをしても仕方がないです。<br>",
+                "意味：　 As it is ~ it can be expected that ~<br>(Used to tell something everyone knows. Following sentence is a presumption)<br>接続：　[名]＋ことだから<br>",
+                "こども のことだから、 すこしぐらいいたずらをしても しかた がないです。<br />"
+            ],
+            "flags": 0,
+            "guid": "q`U9Q9#a[p",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2",
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ことなく<br>",
+                "ロボットは２４時間休むことなく働いている。",
+                "意味：　Without~<br>接続：　 [動-辞書形]＋ことなく",
+                "ロボットは２４ じかん&nbsp;&nbsp;やすむことなく はたらいている。"
+            ],
+            "flags": 0,
+            "guid": "vHU8G#?`7+",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ことに(は)<br>",
+                "驚いたことに、私の祖父と恋人のおじさんは小学校時代の友達だったそうです。",
+                "意味：　To my~ (strengthens the speakers feeling ex. To my surprise)<br>接続：　[動- た形・い形-い・な形-な]＋ことに",
+                "おどろいたことに、 わたし の そふ と こいびと のおじさんは しょうがっこう&nbsp;&nbsp;じだい の ともだち だったそうです。"
+            ],
+            "flags": 0,
+            "guid": "l8GcrTTbpu",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ことになっている<br>",
+                "意味：　Be supposed to ~ (shows an appointment or rule)<br>接続：　[動-辞書形；動-ない形-ない；い形-い]＋ことになっている",
+                "今度の日曜日、友達と会うことになっている。",
+                "いみ ：　 Be supposed to~( shows an appointment or rule)<br /> せつぞく ：　[ どう - じしょ&nbsp;&nbsp;がた ； どう -ない かたち -ない；い がた -い]＋ことになっている"
+            ],
+            "flags": 0,
+            "guid": "c&cJA~`|D]",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ことはない",
+                "時間は十分あるから、急ぐことはない。 ",
+                "意味：　 No need to ~<br>接続：　[動-辞書形]＋ことはない<br>",
+                "じかん は じゅうぶん あるから、 いそぐことはない。"
+            ],
+            "flags": 0,
+            "guid": "dW7UOnW.$[",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~さい際(は) / ~際に",
+                "カ-ドを紛失した際はカ-ド会社にすぐ知らさせなければならない。<br>",
+                "意味：　When~ ; Upon~<br>接続：　[動-辞書形 / た形；名-の]＋際",
+                "カ-ドを ふんしつ した さい はカ-ド かいしゃ にすぐ しらさせなければならない。<br />"
+            ],
+            "flags": 0,
+            "guid": "qc{%5FLc0G",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~さいちゅう 最中だ / ~最中に",
+                "考えている最中に、話をかけられて困った。",
+                "意味：　In the midst of~ ; During ~<br>接続：　[動-ている；名-の]＋最中に",
+                "かんがえている さいちゅう に、 はなし をかけられて こまった。"
+            ],
+            "flags": 0,
+            "guid": "h60Jy<D-tg",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ さえ / (~で)さえ",
+                "そこは電気さえない山奥だ。",
+                "意味：　Even~　&lt;one example is an extreme conditon, and everything that follows is a needless to say&gt;<br>接続：　[名]＋さえ<br>注意：　when さえ is connected to a noun, the particles が and を are omitted.",
+                "そこは でんき さえない やまおく だ。"
+            ],
+            "flags": 0,
+            "guid": "gpa9H@]rn3",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~さえ~ば",
+                "インスタントラーメンはお湯を入れさえすれば食べられる便利な食品だ。<br>体さえ丈夫なら、どんな苦労に耐えられると思う。",
+                "意味：　 If only~<br>接続：　[動-ます形]＋さえ＋すれば / しなければ<br>　　　　　[い形-く；な形で；名-で]＋さえ＋あれば / なければ<br>　　　　　[名]＋さえ＋[動-ば；い形-ければ；な形-なら；名-なら]<br>",
+                "インスタントラーメンはお ゆを いれさえすれば たべられる べんり な しょくひん だ。<br /> たい さえ じょうぶ なら、どんな くろう に たえられると おもう。"
+            ],
+            "flags": 0,
+            "guid": "nBa1k!)(1{",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ざるを得ない",
+                "みんなで決めた規則だから、守らざるを得ない。 \t<br>",
+                "意味：　Can’t help thinking~<br>接続：　[動-ない形]＋ざるを得ない　＜[する] becomes 「せざる得ない」＞",
+                "みんなで きめた きそく だから、 まもらざるを え ない。<br />"
+            ],
+            "flags": 0,
+            "guid": "l77KDf=Qdn",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~しかない",
+                "事故で電車が動かないから、歩いて行くしかない。",
+                "意味：　Have no other way but~ / Must~<br>接続：　[動-辞書形]＋しかない<br>",
+                "じこ で でんしゃ が うごかないから、 あるいて いくしかない。"
+            ],
+            "flags": 0,
+            "guid": "g~T_dsO:P=",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~しだい次第<br>",
+                "新しい住所を決まり次第、連絡します。<br>",
+                "意味：　As soon as~<br>接続：　[動-ます形；名]＋次第<br>",
+                "あたらしい じゅうしょ を きまり しだい 、 れんらく します。<br />"
+            ],
+            "flags": 0,
+            "guid": "qnam_v{AXW",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~次第だ / ~次第で(は)<br>",
+                "A) このたび日本政府の招きにより、親善大使として日本に来た次第だ。<br>B) この世の中はお金次第だと言う人もいる。<br>",
+                "A 意味：　show a reason, details.&nbsp;&nbsp;When you want to show the result of something.<br>　接続：　[動・い形・な形]の名詞修飾型＋次第だ<br>B意味：　Depending on~<br>　接続：　[名]＋次第だ",
+                "A)このたび にっぽん&nbsp;&nbsp;せいふ の まねきにより、 しんぜん&nbsp;&nbsp;たいし として にっぽん に き た しだい だ。<br /> B)この よのなか はお かね しだい だと いう ひと もいる。<br />"
+            ],
+            "flags": 0,
+            "guid": "rKL#pMfn<o",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~じょう上(は) / ~上の / ~上も<br>",
+                "京都には歴史上有名なお寺が数多くある",
+                "意味：　From the standpoint of~; (can also be thought of as ~ly. Ex. 歴史上?hisorically 法律上?legally)<br>接続：　 [名]＋上<br>注意：　the noun in front of ~上 is usually a Chinese word　Ex. 「教育上」、「外見上」、「経済上」、<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;「政治上」、「学問上」、「表面上」、「職業上」、「外交上」etc…<br>",
+                "きょうと には れきし&nbsp;&nbsp;じょう&nbsp;&nbsp;ゆうめい なお てらが かずおおくある"
+            ],
+            "flags": 0,
+            "guid": "kWrf_M?pMQ",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~(た)すえ末に / ~(た)末の / (~の) 末 (に)",
+                "いろいろ考えた末、会社を辞めることにした。 \t",
+                "意味：　After~(for a long time)<br>接続：　[動-た形；名-の]＋末",
+                "いろいろ かんがえた すえ 、 かいしゃ を やめることにした。"
+            ],
+            "flags": 0,
+            "guid": "roD$C/wz&|",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~せいか / ~せいだ / ~せいで",
+                "私が失敗したのは、彼のせいだ。",
+                "意味：　 Because of~ ; On account of~ (The cause leads to a bad result)<br>接続：　 [動・い形・な形・名]の名詞修飾型＋せいだ<br>慣用：　気のせい be one’s imagination せいにしている　blame something or somebody ",
+                "わたし が しっぱい したのは、 かれ のせいだ。"
+            ],
+            "flags": 0,
+            "guid": "f@Naq=k*H+",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~だけ / ~だけあって / ~だけに / ~だけの",
+                "A) この仕事は努力しただけ成果が現れるので、やりがいがある<br>B) 昨年はみかんが不作で、値段が高かっただけに今年の豊作がうれしい。<br>C) 考えるだけ考えたが結論は出なかった。",
+                "A 意味：　Becoming of~ ; Worthy of~ ; Fitting of~　<br>　接続：　[動・い形・な形・名]の名詞修飾型＋&lt;~だけ / ~だけあって / ~だけに / ~だけの&gt;　＜[名] doesn’t use [の]＞<br><br>B意味：Because ; So, comme on pouvait s'y attendre <br>　接続：　[動・い形・な形・名]の名詞修飾型＋だけに<br>C意味：　As long(much) as~<br>　接続：　[動・い形・な形]＋名詞修飾型＋&lt;だけ / だけの&gt;<br>",
+                "A)この しごと は どりょく しただけ せいか が あらわれるので、やりがいがある<br> B) さくねん はみかんが ふさく で、 ねだん が たかかっただけに ことし の ほうさく がうれしい。<br> C) かんがえるだけ かんがえたが けつろん は で なかった。"
+            ],
+            "flags": 0,
+            "guid": "f0I|j(M0,/",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2",
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~たとえ~ても / ~たとえ~でも",
+                "自分で決めた道だから、失敗しても後悔しない。",
+                "意味：　Even if~<br>接続：　たとえ[動-ても；い形-くても；な形-でも；名-でも]<br>",
+                "じぶん で きめた みち だから、 しっぱい しても こうかい しない。"
+            ],
+            "flags": 0,
+            "guid": "u~U`rS/5k8",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~(た)ところ",
+                "新しいワ-プロを使ってみたところ、とても使いやすかった。",
+                "意味：　When~ (When something is done, this is the result)<br>接続：　[動-た形]＋ところ",
+                "あたらしいワ-プロを つかってみたところ、とても つかいやすかった。"
+            ],
+            "flags": 0,
+            "guid": "dhezy+N^G%",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~(た)とたん(に)",
+                "犯人は警官の姿を見たとたん、逃げ出した。",
+                "意味：　Just as~ ; As soon as~ ; No sooner than~<br>接続：　[動-た形]＋とたん",
+                "はんにん は けいかん の すがた を み たとたん、 にげだした。"
+            ],
+            "flags": 0,
+            "guid": "c,m-=h5O6@",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~たび(に)<br>",
+                "意味：　Everytime~<br>接続：　[動-辞書形；名-の]＋たび",
+                "例文：　その歌を歌うたび、幼い日のことを思い出す。",
+                "いみ ：　 Everytime~<br /> せつぞく ：　[ どう - じしょ&nbsp;&nbsp;がた ； めい -の]＋たび"
+            ],
+            "flags": 0,
+            "guid": "gr1S`|MR%0",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~だらけ",
+                "このレポ-トは字が間違いだらけで読みにくい。 \t",
+                "意味：　Full of~ &lt;negative&gt;<br>接続：　[名]＋だらけ",
+                "このレポ-トは じ が まちがいだらけで よみにくい。"
+            ],
+            "flags": 0,
+            "guid": "qD:vAZUNq#",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ついでに",
+                "銀行へ行くついでにこの手紙を出してくれませんか。<br>",
+                "意味：　When doing ~ also do ~<br>接続：　[動-辞書形 / た形；名-の]＋ついでに",
+                "ぎんこう へ いくついでにこの てがみ を だしてくれませんか。< br>"
+            ],
+            "flags": 0,
+            "guid": "BZPyPc%$}",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~っけ",
+                "彼にはまだパーティーの場所を知らせていなかったっけ。<br>",
+                "意味：　 (used at the end of a sentence when remembering (confirming) something)<br>接続：　[動・い形・な形・名]の普通形＋っけ　＜「~でしたっけ」\\「~ましたっけ」can also be used＞",
+                "かれ にはまだパーティーの ばしょ を しらせていなかったっけ。<br />"
+            ],
+            "flags": 0,
+            "guid": "cTpzbqX=+m",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~っこない",
+                "宝くじなんて当たりっこないよ。",
+                "意味：　No way that~<br>接続：　[動-ます形]＋っこない<br>注意：　Use in conversations<br>",
+                "たからくじなんて あたりっこないよ。"
+            ],
+            "flags": 0,
+            "guid": "l[Tk&:+zYu",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~つつ / ~つつも",
+                "A) 財布の中身を考えつつ、買い物をした。<br>B) 悪いと知りつつ、うそをついてしました。",
+                "接続：　[動-ます形]＋つつ<br>A意味：　While~<br>　注意：　Not used in conversations. 「~つつも」can not be used in this way<br>B意味：　~Though<br>　接続：　悪いと知りつつ、うそをついてしました。<br>",
+                "A) さいふ の なかみ を かんがえつつ、 かいもの をした。<br /> B) わるいと しりつつ、うそをついてしました。"
+            ],
+            "flags": 0,
+            "guid": "imho[oc*X#",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ つつある",
+                "景気は徐々に回復しつつある。",
+                "意味：　Be (gradually) doing~<br>接続：　[動-ます形]＋つつある<br>注意：　Used mostly in written form<br>",
+                "けいき は じょじょに かいふく しつつある。"
+            ],
+            "flags": 0,
+            "guid": "jOS#{a#WM{",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~っぽい",
+                "A) 景気は徐々に回復しつつある。<br>B) 彼は怒りっぽいけれど、本当は優しい人です。",
+                "A意味：　 ~ish ; ~like ; ~looking<br>　接続：　[いけい-○；名]＋っぽい<br>B意味：　Easily~<br>　接続：　[動-ます形]＋っぽい<br>　注意：　っぽいbecomes a い形容詞 \t<br>",
+                "A) けいき は じょじょに かいふく しつつある。<br /> B) かれ は いかりっぽいけれど、 ほんとうは やさしい ひと です。"
+            ],
+            "flags": 0,
+            "guid": "iW4EkMe|)#",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~(て)いらい以来",
+                "日本に来て以来、日本に対する考え方が少しずつ変わってきた。",
+                "意味：　Since~(and still going on)<br />接続：　[動-て形]＋以来<br />注意：　Shows the continuation of something that happened in the past and is still going on.<br />",
+                "にっぽん に き て いらい 、 にっぽん に たいする&nbsp;&nbsp;かんがえかた が すこしずつ かわってきた。"
+            ],
+            "flags": 0,
+            "guid": "s`/P|[SPX(",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "JLPT2",
+                "grammar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~(て)からでないと / ~(て)からでなければ",
+                "お金をいただいてからでないと、商品はを届けできません。<br>",
+                "意味：　Not until~<br>接続：　[動-て形]＋からでないと<br>注意：　The following sentence will always be negative.<br>",
+                "お かねをいただいてからでないと、 しょうひん はを とどけできません。<br />"
+            ],
+            "flags": 0,
+            "guid": "pVZRk%!!{T",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "(~て)たまらない / ~(て)しょうがない",
+                "頭痛がしてたまらないので、近くの病院へ行った。",
+                "意味：　Can’t help~ing ; Can’t stand(bear)~<br>接続：　[動-て形；い形-くて；な形-で]＋たまらない<br>注意：　Subject is always first person<br>",
+                "ずつう がしてたまらないので、 ちかくの びょういん へ いった。"
+            ],
+            "flags": 0,
+            "guid": "jv#5v,x<34",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "JLPT2",
+                "grammar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "(~て)ならない",
+                "交通事故で両親を亡くした子供がかわいそうに思えてならない。",
+                "意味：　Can’t help~ing<br>接続：　[動-て形；い形-くて；な形-で]＋ならない<br>注意：　More formal than「~てたまらない」。「思える」、「思い出す」etc. can't use 「~てたまらない」",
+                "こうつう&nbsp;&nbsp;じこ で りょうしん を なくした こども がかわいそうに おもえてならない。"
+            ],
+            "flags": 0,
+            "guid": "p7Zz0f~{=:",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ということだ",
+                "A) 新聞によると、また地下鉄の運賃が値上げされるということだ<br>B) ご意見がないということは賛成ということですね。",
+                "接続：　[動・い形・な形・名]＋ということだ<br>A意味：　I’ve heard that<br>&nbsp;&nbsp;参考：　「とのこと」is used for letters, etc.<br>B意味：　It means that<br>",
+                "A) しんぶん によると、また ちかてつ の うんちん が ねあげされるということだ<br /> B)ご いけん がないということは さんせい ということですね。"
+            ],
+            "flags": 0,
+            "guid": "p^TJoi{%w0",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ というと / ~といえば",
+                "A) スポ-ツの祭典というと、まずオリンピックですね<br>B) 「昨日、ジョンさんに会いましたよ。」<br>「そうですか。ジョンさんといえばＡ会社に就職が決まったそうですね。」<br>",
+                "A意味：　Speaking of~ ; Talking about~　&lt;use when speaking something typical about the topic&gt;<br>&nbsp;&nbsp;接続：　[名]＋というと<br>B意味：　 Speaking of~ ; Talking about~　&lt;use when remembering something about the subject&gt;<br>　接続：　[動・い形・な形・名]の普通形＋といえば　＜[名]doesn't use [だ]＞<br>",
+                "A)スポ-ツの さいてん というと、まずオリンピックですね<br /> B)「 きのう 、ジョンさんに あいましたよ。」<br />「そうですか。ジョンさんといえば えい&nbsp;&nbsp;かいしゃ に しゅうしょく が きまったそうですね。」<br />"
+            ],
+            "flags": 0,
+            "guid": "g_.~moa`}<",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~というものだ",
+                "彼の作品がやっと世間から評価された。長年の苦労が認められたというものだ。<br>",
+                "意味：　Is known as~ ; It is that~ c'est que... <br>接続：　[動・い形・な形・名]の普通形＋というものだ　＜sometimes [な形；名]don't use [だ]＞<br>",
+                "かれ の さくひん がやっと せけん から ひょうか された。 ながねん の くろう が みとめられたというものだ。<br>"
+            ],
+            "flags": 0,
+            "guid": "r)d4E?f]b`",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~というものではない / ~というものでもない<br>",
+                "性格は絶対に変えられないというものではない。<br>",
+                "Cela ne veut pas dire que,  ce n'est pas nécessairement <br><br>意味：　Not necessarily~ ; It’s not that<br>接続：　[動・い形・な形・名]の普通形＋というものではない　＜sometimes [な形；名]don't use [だ]＞<br>",
+                "せいかく は ぜったい に かえられないというものではない。<br>"
+            ],
+            "flags": 0,
+            "guid": "d8YE/D0Esu",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~というより<br>",
+                "彼の言い方は勧めているというより、強制しているよ。<br>",
+                "意味：　More than~<br>接続：　[動・い形・な形・名]の普通形＋というより　&lt;[な形・名] do not use [だ]&gt;<br>",
+                "かれ の いいかた は すすめているというより、 きょうせい しているよ。<br />"
+            ],
+            "flags": 0,
+            "guid": "t4nNS&?}7x",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~といったら<br>",
+                "息子の部屋の汚いことといったら、ひどいものです。<br>",
+                "意味：　 Speaking of~ ; Talking about~(show plus and minus)<br>接続：　[名]＋といったら<br>",
+                "むすこ の へや の きたないことといったら、ひどいものです。<br />"
+            ],
+            "flags": 0,
+            "guid": "fFPl}J{A,U",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~といっても<br>",
+                "庭があるといっても猫の額ほどです。<br>",
+                "意味：　But~ ; Although~ (show what your thinking about is wrong or different)<br>接続：　[動・い形・な形・名]の普通形＋といっても　＜sometimes[な形；名]don't use [だ]＞<br>",
+                "にわ があるといっても ねこ の ひたい ほどです。<br />"
+            ],
+            "flags": 0,
+            "guid": "n2u/8IflMI",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2",
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~とおり(に) / ~どおり(に)<br>",
+                "説明書に書いてあるとおりにやってみてください。<br>",
+                "意味：　Just as~<br>接続：　[動-辞書形 / た形；名-の]＋とおり　；　[名]＋どおり<br>",
+                "せつめい&nbsp;&nbsp;しょ に かいてあるとおりにやってみてください。<br />"
+            ],
+            "flags": 0,
+            "guid": "=`v_UPht-",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ とか<br>",
+                "新聞によると、国内線の飛行機運賃が上がるとか。<br>",
+                "意味：　hear that~ ; say that~<br>接続：　[動・い形・な形・名]の普通形＋とか<br>",
+                "しんぶん によると、 こくないせん の ひこうき&nbsp;&nbsp;うんちん が あがるとか。< br>"
+            ],
+            "flags": 0,
+            "guid": "o{gyDUuVM3",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~どころか<br>",
+                "彼は貯金するどころか借金だらけだ。",
+                "意味：　 Far from~<br>接続：　[動・い形・な形・名]の普通形＋どころか　＜[な形・名]don't use[だ]；[な形-な]can be used＞",
+                "かれ は ちょきん するどころか しゃっきん だらけだ。"
+            ],
+            "flags": 0,
+            "guid": "f`[F~Gua;4",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~どころではない / ~どころではなく<br>",
+                "人の仕事を手伝うどころではありません。自分の仕事も間に合わないんです。<br>",
+                "意味：　Can’t do ~ because~<br>接続：　[動-辞書形；名]＋どころではない<br>",
+                "ひと の しごと を てつだうどころではありません。 じぶん の しごと も まにあわないんです。<br />"
+            ],
+            "flags": 0,
+            "guid": "m{n>M+h~T@",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ところに / ~ところへ / ~ところを<br>",
+                "ちょうどキムさんのうわざをしているところに、本人がやって来た。<br>",
+                "意味：　At that time ; At that place ; At that scene<br>接続：　[動-辞書形 / た形 / ている形；い形-い]＋ところに<br>",
+                "ちょうどキムさんのうわざをしているところに、 ほんにん がやって きた。<br />"
+            ],
+            "flags": 0,
+            "guid": "g)o$u%]}B(",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~としたら / ~とすれば",
+                "A) 留学するとしたら、日本に行きたいと思っていました。<br>B) 足の悪い人が地下鉄を利用するとしたら、どんな設備が必要だろうか。",
+                "接続：　[動・い形・な形・名]の普通形＋としたら<br>A意味：　If~<br>B意味：　 If~ (Think from the perspective of~)<br>",
+                "A) りゅうがく するとしたら、 にっぽん に いきたいと おもっていました。<br /> B) あし の わるい ひと が ちかてつ を りよう するとしたら、どんな せつび が ひつよう だろうか。"
+            ],
+            "flags": 0,
+            "guid": "vWL&SH7p$6",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~として(は) / ~としての / としても",
+                "この病気は難病として認定された。",
+                "意味：　As~<br>接続：　[名]＋として<br>認定: Recognized; authorized",
+                "この びょうき は なんびょう として にんてい された。"
+            ],
+            "flags": 0,
+            "guid": "Njto*_;IX",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~とともに",
+                "A) お正月は家族とともに過ごしたい。<br />B) 小林氏は、学生を指導するとともに、研究にも力を入れている。<br />C) 年をとるとともに、体力が衰える。",
+                "A.意味： With~<br />　接続： [名]＋とともに<br />B. 意味： At the same time~<br />　接続： [動--辞書形 ; い形--い ; な形--である ; 名形--である]＋とともに<br>C.意味： As~<br>&nbsp;&nbsp;接続： [動--辞書形 ; 名]＋とともに",
+                "A)お しょうがつは かぞく とともに すごしたい。<br /> B) こばやし&nbsp;&nbsp;し は、 がくせい を しどう するとともに、 けんきゅう にも ちから を いれている。<br /> C) ねん をとるとともに、 たいりょく が おとろえる。"
+            ],
+            "flags": 0,
+            "guid": "o<POA;2>Jy",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ないことには",
+                "実際に読まないことには、この小説の面白さは分からないだろう。",
+                "意味：　If not~<br>接続：　 [動-ない形；い形-く；な形-で；名-で]＋ないことには<br>注意：　The following sentence will be negative.",
+                "じっさい に よまないことには、この しょうせつ の おもしろ さは わからないだろう。"
+            ],
+            "flags": 0,
+            "guid": "rA6Syg<Yo1",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ないことはない / ~ないこともない",
+                "難しいが、やり方次第ではできないことはないだろう。<br>",
+                "Ce n'est pas impossible que, il y a une faible chance que, il se peut que<br><br>意味：<br>接続：　[動-ない形；い形- く；な形-で；名-で]＋ないことはない<br>",
+                "むずかしいが、やり かた しだい ではできないことはないだろう。<br>"
+            ],
+            "flags": 0,
+            "guid": "l+S%ga^8nQ",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ないではいられない / ずにはいられない",
+                "彼のもの真似を見るとおかしくて、笑わないではいられない。",
+                "意味：　Always end up~<br>接続：　[動-ない形]＋ないではいられない　＜[する]becomes[ぜずにはいらない]＞<br>意味：　Always end up~<br>接続：　[動-ない形]＋ないではいられない　＜[する]becomes[ぜずにはいらない]＞<br>注意：　Only for first person.&nbsp;&nbsp;For third person, use 「~ようだ」「~らしい」at the end.",
+                "かれ のもの まね を みるとおかしくて、 わらわないではいられない。"
+            ],
+            "flags": 0,
+            "guid": "eHn_2dvXt2",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ながら",
+                "一緒に暮らしていながら、母の病気に気づかなかった。",
+                "意味：　 Though~, While~<br>接続：　[動-ます形 / ないけい-ない；い形-○；な形-○；名]＋ながら<br>類語：　「~つつ / ~つつも」B meaning",
+                "いっしょ に くらしていながら、 はは の びょうき に きづかなかった。"
+            ],
+            "flags": 0,
+            "guid": "sr#[RoS+4{",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~など / ~なんか / ~なんて",
+                "A) お見舞いならカ-ネ-ションなんてどうかしら<br>B) 忙しくて、テレビなど見ていられない",
+                "接続：　[名]＋など<br>A意味：　such as; like; and so on　&lt;when you want to give an example, or make a light expression.&gt;<br>B 意味：　etc; among other things ; for example&lt;make light of something or say something negative&gt;<br>注意：　なんか、なんて are used in spoken language \t<br>",
+                "お みまいならカ-ネ-ションなんてどうかしら"
+            ],
+            "flags": 0,
+            "guid": "qW[C9aV3Ze",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にあたり / ~にあたって",
+                "開会にあたって、ひとことごあいさつ申し上げます。",
+                "意味：　 When~(show something that should be done in this situation)<br>接続：　[動-辞書形；名]＋にあって",
+                "かいかい にあたって、ひとことごあいさつ もうしあげます。"
+            ],
+            "flags": 0,
+            "guid": "nhc&sFEc)1",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~において(は) / ~においても / ~における",
+                "会議は第一会議室において行なわれる。",
+                "意味： In ; At ; On ; same as the particle で<br>接続： [名]＋において<br>",
+                "かいぎ は だい 一 かいぎ&nbsp;&nbsp;しつ において おこなわれる。"
+            ],
+            "flags": 0,
+            "guid": "kxI]T<rOCo",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~におう 応じ / ~応じた / ~応じて",
+                "保険金は被害状況に応じて、払われる。",
+                "意味：　In response to~<br>接続：　 [名]＋に応じて<br>",
+                "ほけん&nbsp;&nbsp;きん は ひがい&nbsp;&nbsp;じょうきょう に おうじて、 はらわれる。"
+            ],
+            "flags": 0,
+            "guid": "mqP7edwdr@",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にかかわらず / ~に(は)かかわりなく",
+                "参加するしないかかわらず、必ず返事をください。",
+                "意味：　 Regardless of~<br>接続：　[動-辞書形 / ない形-ない；名]＋にかかわらず<br>注意：　Nouns showing a kind or extent of something, or 2 words in opposition are usually used. Such as 「する・しない」「晴雨」。Adjectives such as 「いい・悪い」「好き・嫌い」「上手・下手」 can be combined and used.<br>",
+                "さんか するしないかかわらず、 かならず へんじ をください。"
+            ],
+            "flags": 0,
+            "guid": "inO90Z>nC0",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にかぎ限って / ~限り / ~に限る",
+                "A) 参加者は女性に限る<br>B) あの人に限って、人をだますようなことはなし。<br>C) 風邪を引いた時は、部屋を暖かくして寝るに限る。",
+                "A意味：　Only~<br>&nbsp;&nbsp;接続：　[名]＋「に限る、に限り、に限って」<br>B意味：　Without fail~<br>&nbsp;&nbsp;接続：　[名]＋に限って<br>C意味：　Be the best~<br>　接続：　[動-辞書形 / ない形-ない；名]＋に限る<br>",
+                "A) さんか&nbsp;&nbsp;しゃ は じょせい に かぎる<br /> B)あの ひと に かぎって、 ひと をだますようなことはなし。<br /> C) かぜ を ひいた とき は、 へや を あたたかくして ねるに かぎる。"
+            ],
+            "flags": 0,
+            "guid": "n-o@w*!&P+",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2",
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~に限らず",
+                "ディズニ-ランドは子供に限らず、大人にも人気がある。<br>",
+                "意味：　 Not only~but also~<br>接続：　[名]＋に限らず<br>",
+                "ディズニ-ランドは こども に かぎらず、 おとな にも にんき がある。<br />"
+            ],
+            "flags": 0,
+            "guid": "bebix|tefM",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にかけては / ~にかけても<br>",
+                "数学にかけては、彼女はクラスでいつも一番だった。",
+                "意味：　If (when) talking about ~ ; As far as~is concerned~<br>接続：　[名]＋にかけては<br>注意：　followed by a positive sentence<br>",
+                "すうがく にかけては、 かのじょ はクラスでいつも いちばん だった。"
+            ],
+            "flags": 0,
+            "guid": "p$G;6i<W?J",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にかわって / ~にかわり<br>",
+                "A) ここでは、人間にかわってロボットが作業をしている。<br>B) 父にかわって、私が結婚式に出席しました。",
+                "接続：　[名]＋にかわって<br>A意味：　In place of~<br>B意味：　( By proxy~ )<br>",
+                "A)ここでは、 にんげん にかわってロボットが さぎょう をしている。<br /> B) ちち にかわって、 わたし が けっこんしき に しゅっせき しました。"
+            ],
+            "flags": 0,
+            "guid": "kO{e;<;Gw.",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ にかん関して(は) / ~にかんしても / ~に関する",
+                "計画変更に関して、十分検討する必要がある。",
+                "意味：　 About~<br>類語：　「~について」<br>接続：　[名]＋に関して",
+                "けいかく&nbsp;&nbsp;へんこう に かんして 、 じゅうぶん&nbsp;&nbsp;けんとう する ひつよう がある。"
+            ],
+            "flags": 0,
+            "guid": "tay0`Qk|fq",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にきまっている",
+                "全然練習していないんだから、今度の試合は負けるにきまっている。",
+                "意味：　It’s decided that~ (often used in speaking)<br>接続：　[動・い形・な形・名]の普通形＋にきまっている　＜[な形・名] don't use [だ]＞<br>注意：　Mostly used in speaking",
+                "ぜんぜん&nbsp;&nbsp;れんしゅう していないんだから、 こんど の しあい は まけるにきまっている。"
+            ],
+            "flags": 0,
+            "guid": "b}EkqCp*T-",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にくら比べ / ~に比べて",
+                "兄に比べて、弟はよく勉強する。",
+                "意味：　Compare~ to~<br>接続：　[名]＋に比べて<br>",
+                "あに に くらべて、 おとうと はよく べんきょう する。"
+            ],
+            "flags": 0,
+            "guid": "q/9g,k{3$Q",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にくわ加え / ~に加えて",
+                "電気代に加えて、ガス代まで値上がりした。",
+                "意味：　In addition to~<br>接続：　[名]＋に加えて",
+                "でんき&nbsp;&nbsp;だい に くわえて、ガス だい まで ねあがりした。"
+            ],
+            "flags": 0,
+            "guid": "tp+XSPPKy7",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にこたえ / ~にこたえた / ~にこたえて / ~にこたえる",
+                "社員の要求にこたえて、労働時間を短縮した。",
+                "意味：　In response to~ ; In reply to~<br>接続：　[名]＋にこたえて<br>",
+                "しゃいん の ようきゅう にこたえて、 ろうどう&nbsp;&nbsp;じかん を たんしゅく した。"
+            ],
+            "flags": 0,
+            "guid": "hzbpDBL[@(",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ にさい際し / ~に際して /　~に際しての",
+                "留学に際して、先生や友人から励まし言葉をもらった。",
+                "意味：　When starting~ ; When doing~<br>接続：　[動-辞書形：名]＋に際して<br>類語：　「~にあたって」",
+                "りゅうがく に さいして 、 せんせい や ゆうじん から はげまし ことば をもらった。"
+            ],
+            "flags": 0,
+            "guid": "grg@81j@Ed",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ にさきだ先立ち / ~に先立て / ~に先立つ",
+                "映画の一般公開に先立って、主演女優のサイン会が開かれた。",
+                "意味：　Before ~ ; Right before~<br>接続：　[名]＋先立って<br>",
+                "えいが の いっぱん&nbsp;&nbsp;こうかい に さきだって、 しゅえん&nbsp;&nbsp;じょゆう のサイン かい が ひらかれた。"
+            ],
+            "flags": 0,
+            "guid": "gI{0+1vPDL",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にしたがい / ~にしたがって",
+                "高く登るにしたがって、見晴らしがよくなった。",
+                "意味：　With~ ; Following~ ; As~ (when one the changes so does the other)<br>接続：　[動--辞書形；名]＋にしたがって<br>類語：　「~とともに」のＣの意味；「~につれて」<br>",
+                "たかく のぼるにしたがって、 みはらしがよくなった。"
+            ],
+            "flags": 0,
+            "guid": "rG~;s9=JBc",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にしたら / ~にしても / ~にすれば",
+                "あの人にしたら、私達の親切はかえって迷惑かもしりません",
+                "意味：　For~ (from the position of)<br>接続：　[名]＋にしたら<br>",
+                "あの ひと にしたら、 わたし&nbsp;&nbsp;たち の しんせつ はかえって めいわく かもしりません"
+            ],
+            "flags": 0,
+            "guid": "tFUynqx_c5",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にしては<br>",
+                "兄はアメリカに２０年いたにしては英語が下手だ。",
+                "意味：　 Although ; Even though<br>接続：　[動・い形・な形・名]の普通形＋にしては　＜[な形；名]don't use [だ]＞<br>",
+                "あに はアメリカに２０ ねん いたにしては えいご が へた だ。"
+            ],
+            "flags": 0,
+            "guid": "rrR&kp%.7^",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にしても / ~にしろ / ~に(も)せよ",
+                "A) どんな人間にしろ長所はあるものだ。<br>B) ビ-ルにしろ、日本酒にしろ飲んだら運転できない。",
+                "A意味：　Even if~<br>　接続：　[動・い形・な形・名]の普通形＋にしろ　＜[な形；名]don't use [だ]. [~である]can be used.＞<br>B意味：　Whenever~<br>　接続：　[動・い形・な形・名]の普通形＋にしろ＋[動・い形・な形・名]の普通形＋にしろ<br>",
+                "A)どんな にんげん にしろ ちょうしょ はあるものだ。<br /> B)ビ-ルにしろ、 にっぽん&nbsp;&nbsp;しゅ にしろ のんだら うんてん できない。"
+            ],
+            "flags": 0,
+            "guid": "liMng/d5+L",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2",
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にすぎない",
+                "わたしは警官としてしなければならないことをしたにすぎません。",
+                "Être rien de plus que,  être tout au plus<br>意味：　Merely~ ; Only~ ; Just~ ; Be (do) nothing but~<br>接続：　[動-普通形；な形-である；名 / 名-である]＋にすぎない<br>",
+                "わたしは けいかん としてしなければならないことをしたにすぎません。"
+            ],
+            "flags": 0,
+            "guid": "g?-UoZ7GN]",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にそ沿い / ~に沿う / ~に沿った /　~に沿って",
+                "決まった方針に沿って、新しい計画を立てましょう。",
+                "意味：　In accordance with~<br>接続：　[名]＋に沿って<br>",
+                "きまった ほうしん に そって、 あたらしい けいかく を たてましょう。"
+            ],
+            "flags": 0,
+            "guid": "f]]*6-T7O.",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にそうい相違ない",
+                "そんな非常識な要求は認められないに相違ない。",
+                "Sûrement,  sans aucun doute<br>意味：　It must be~<br>接続：　[動・い形・な形・名]の普通形＋に相違ない　＜[な形・名] don't use [だ]＞<br>注意：　In certificates the meaning becomes 「間違いない」",
+                "そんな ひじょうしき な ようきゅう は みとめられないに そうい ない。"
+            ],
+            "flags": 0,
+            "guid": "bc%Zz#X{1%",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にたい対し / ~に対して(は) / ~に対しても / ~に対する",
+                "お客様に対して失礼なことを言ってはいけません。",
+                "意味：　As for ; To ; Toward; About ; same as に<br>接続：　[名]＋に対して",
+                "お きゃくさまに たいして&nbsp;&nbsp;しつれい なことを いってはいけません。"
+            ],
+            "flags": 0,
+            "guid": "p%4]xJ_.jR",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にちが 違いない",
+                "鍵がない。どこかに落としたに違いない。",
+                "意味：　There is no doubt of~<br>接続：　[動・い形・な形・名]の普通形＋に違いない　＜[な形・名] don't use [だ]＞",
+                "かぎ がない。どこかに おとしたに ちがいない。"
+            ],
+            "flags": 0,
+            "guid": "eDGi?]sUA=",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~について (は) / ~についての / ~についても / ~につき",
+                "日本の経済について研究しています。",
+                "意味：　 About~ ; Concerning~<br>接続：　[名]＋について",
+                "にっぽん の けいざい について けんきゅう しています。"
+            ],
+            "flags": 0,
+            "guid": "nPT1~M*e^O",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~につき",
+                "雨天につき、試合は延期いたします。",
+                "意味：　 Because~<br>接続：　[名]＋につき<br>注意：　Slightly strong saying",
+                "うてん につき、 しあい は えんき いたします。"
+            ],
+            "flags": 0,
+            "guid": "nQ=BiQ$J>s",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~につけ / ~につけて(は) / ~についても",
+                "A) 家族の写真を見るにつけ、会いたくてたまらなくなる。<br>B) 先輩の活躍を見るにつけ聞くにつけ、心強くなる。",
+                "A意味：　whenever~<br>　接続：　[動-辞書形]＋につけ<br>　慣用：　何かにつけて<br>　　　　　　何事につけても<br>　　　　　　それにつけても<br>　注意：　At the end of the sentence, a verb showing one’s feeling will come　「~と思う」「という気持ちになる」<br>B意味：　Whether~or~<br>　接続：　[動-辞書形；い形-い；名]＋につけ＋[動-辞書形；い形-い；名]＋につけ<br>　注意：　Contrasting words come before 「~につけ」",
+                "A) かぞく の しゃしん を みるにつけ、 あいたくてたまらなくなる。<br /> B) せんぱい の かつやく を みるにつけ きくにつけ、 こころづよくなる。"
+            ],
+            "flags": 0,
+            "guid": "ldKD(J8JWA",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~につれ / ~につれて",
+                "品質がよくなるにつれて、値段が高くなる。",
+                "意味：　As~ ; With~ (when one the changes so does the other)<br>接続：　[動--辞書形；名]＋にしたがって<br>類語：　「~とともに」のＣの意味；「~にしたがって」",
+                "ひんしつ がよくなるにつれて、 ねだん が たかくなる。"
+            ],
+            "flags": 0,
+            "guid": "m=9MjxWSps",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にとって(は) / ~にとっての / ~にとっても",
+                "この写真はわたしにとって、何よりも大切なものです。",
+                "意味：　For~ ; To~ (a judgment or assessment will follow this expression)<br>接続：　[名]＋にとって",
+                "この しゃしん はわたしにとって、 なに よりも たいせつ なものです。"
+            ],
+            "flags": 0,
+            "guid": "9=~~HSlF3",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にともな伴い / ~に伴う / ~に伴って",
+                "A)人口が増えるに伴って、いろいろな問題が起こってきた。<br>B) 地震に伴って、火災が発生することが多い。",
+                "Ａ意味：　As~ ; With~ (accompanying, following something)<br>　接続：　[動--辞書形；名]＋に伴って<br>Ｂ意味：　With~ (happen at the same time)<br>　接続：　[名]＋に伴って<br>",
+                "A) じんこう が ふえるに ともなって、いろいろな もんだい が おこってきた。<br /> B) じしん に ともなって、 かさい が はっせい することが おおい。"
+            ],
+            "flags": 0,
+            "guid": "oCgyPVAOk4",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にはん 反し / ~に反した / ~に反して / ~に反する",
+                "神に意向に反して、人間は自然を破壊している。",
+                "意味：　Against~ ; Contrary to~<br>接続：　[名]＋に反して<br>",
+                "かみ に いこう に はんして、 にんげん は しぜん を はかい している。"
+            ],
+            "flags": 0,
+            "guid": "b;h$[tV]6",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にほかならない",
+                "この手紙は私の正直な気持ちを申し上げたにほかなりません。",
+                "意味：　There is no doubt that~<br>接続：　[動・い形・な形・名]の普通形＋にほかならない ＜[な形；名]don't use [だ]. [~である]can be used. To show a reason sometimes [から]is added＞<br>",
+                "この てがみ は わたし の しょうじき な きもちを もうしあげたにほかなりません。"
+            ],
+            "flags": 0,
+            "guid": "hh/Ly6l;{`",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にもかかわらず",
+                "彼は熱があるにもかかわらず、サッカ-の試合に出場した。",
+                "意味：　However~ ; Though~<br>接続：　[動・い形・な形・名]の普通形＋にもかかわらず ＜[な形；名]don't use [だ]。[~である]can be used.＞",
+                "かれ は ねつ があるにもかかわらず、サッカ-の しあい に しゅつじょう した。"
+            ],
+            "flags": 0,
+            "guid": "=+SWnrE]v",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にもと基づいて / ~に基づいた / ~に基づき / ~に基づく",
+                "調査した資料に基づいて、レポ-トを書かなければならない。",
+                "意味：　On the basis of~<br>類語：　「~をもとに」<br>接続：　[名]＋に基づいて",
+                "ちょうさ した しりょう に もとづいて、レポ-トを かかなければならない。"
+            ],
+            "flags": 0,
+            "guid": "f+1U`GEyYh",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~によって / ~によっては / ~により / ~による",
+                "<br />A) アメリカ大陸はコロンバスによって発見された。<br />B) 不注意によって大事故がおこることもある。<br />C) 問題は話し合いによって解決した方がいい。<br />D) 習慣は国によって違う。<br />E) この薬は人によっては副作用が出ることがあります。<br />",
+                "接続：　[名]＋によって<br />Ａ意味：　By~ (show the subject of an action)<br />Ｂ意味：　By~ ; Because of~ (show a cause or reason)<br />Ｃ意味：　By~ (Show a method or way)<br />Ｄ意味：　By~ ; Depending on~ (show differences)<br />Ｅ意味：　By~ ; Depending on~ (For a certain condition / occasion)<br />",
+                "<br /> A) あめりかたいりく はコロンバスによって はっけん された。<br /> B) ふ&nbsp;&nbsp;ちゅうい によって だい&nbsp;&nbsp;じこ がおこることもある。<br /> C) もんだい は はなしあいによって かいけつ した ほう がいい。<br /> D) しゅうかん は くに によって ちがう。<br /> E)この くすり は ひと によっては ふくさよう が でることがあります。<br />"
+            ],
+            "flags": 0,
+            "guid": "huZVZChv1+",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~によると / ~によれば",
+                "今朝の新聞によると、来年度、２つの大学が新設されるそうだ。",
+                "意味：　According to~<br>接続：　[名]＋によると",
+                "けさ の しんぶん によると、 らいねんど 、 ふたつの だいがく が しんせつ されるそうだ。"
+            ],
+            "flags": 0,
+            "guid": "pe_eHX1z}n",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~にわたった / ~にわたって / ~にわたり / ~にわたる",
+                "チンさんは病気のため、２ヶ月にわたって学校を休んだ。",
+                "意味：　Ranging from~ ; Covering~ ; Lasting~ ; Extending over~<br>接続：　[名]＋にわたって",
+                "チンさんは びょうき のため、２ かげつ にわたって がっこう を やすんだ。"
+            ],
+            "flags": 0,
+            "guid": "s]Ng3)6alS",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ぬきで (は) / ~ぬきに(は) / ~ぬきの / (~を)ぬきにして(は) / はぬきにして",
+                "朝食ぬきで会社へ行くサラリ-マンが多いらしい。",
+                "意味：　Without~<br>接続：　[名]＋ぬきで",
+                "ちょうしょく ぬきで かいしゃ へ いくサラリ-マンが おおいらしい。"
+            ],
+            "flags": 0,
+            "guid": "qU=R<LAWs^",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ぬく",
+                "途中、失敗もありましたが、なんとかこの仕事をやりぬくことができました。",
+                "意味：　Do (one’s best) till the end<br>接続：　[動-ます形]＋ぬく",
+                "とちゅう 、 しっぱい もありましたが、なんとかこの しごと をやりぬくことができました。"
+            ],
+            "flags": 0,
+            "guid": "rlR}fpT{J}",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~のみならず",
+                "このパソコンは性能が優れているのみならず、操作も簡単だ。",
+                "意味：　Not only~ but also ; Besides~ ; Moreover~<br>接続：　[動・い形・な形・名]の普通形＋のみならず　＜[な形；名]don't use [だ]. [~である]can be used.＞<br>",
+                "このパソコンは せいのう が すぐれているのみならず、 そうさ も かんたん だ。"
+            ],
+            "flags": 0,
+            "guid": "sdFcvI8m*K",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~のもとで / ~のもとに",
+                "鈴木教授のご指導のもとで、卒業論文を完成させた。",
+                "意味：　Owing to~<br>接続：　[名]＋のもとで",
+                "すずき&nbsp;&nbsp;きょうじゅ のご しどう のもとで、 そつぎょう&nbsp;&nbsp;ろんぶん を かんせい させた。"
+            ],
+            "flags": 0,
+            "guid": "hMqR.fm+BK",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ばかりか /　~ばかりではなく",
+                "林さんのお宅でごちそうになったばかりか、おみやげまでいただいた。",
+                "意味：　Not Only~<br>接続：　[動・い形・な形・名]の名詞修飾型＋ばかりか　＜「名-の」does not use「の」 ＞",
+                "はやし さんのお たく でごちそうになったばかりか、おみやげまでいただいた。"
+            ],
+            "flags": 0,
+            "guid": "pin20TMID}",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ばかりに",
+                "うそをついたばかりに恋人に嫌われてしまう。",
+                "意味：　Simply because of; On account of~ (shows regret over the cause of some bad result)<br>接続：[動・い形・な形・名]の名詞修飾型＋ばかりに　*(名-の)uses(名-である) ; な形-であるis sometimes used",
+                "うそをついたばかりに こいびと に きらわれてしまう。"
+            ],
+            "flags": 0,
+            "guid": "fW2sO_!)xp",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~とばかり",
+                "彼は今がチャンスとばかりに彼女に言い寄った。",
+                "意味：As if s.o. was saying<br />Thinking it was his best chance (litt. as if he was saying this is my chance) he approached her",
+                "かれ は いま がチャンスとばかりに かのじょ に いいよった。"
+            ],
+            "flags": 0,
+            "guid": "o9z$`)~n<v",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "(~を) はじめ / (~を)はじめすると",
+                "上野動物園にはパンダをはじめ、子供達に人気がある動物がたくさんいます。",
+                "意味：　Not only~ but also~ ; ~among other things<br>接続：　[名]＋をはじめ",
+                "うえの&nbsp;&nbsp;どうぶつ&nbsp;&nbsp;えん にはパンダをはじめ、 こども&nbsp;&nbsp;たち に にんき がある どうぶつ がたくさんいます。"
+            ],
+            "flags": 0,
+            "guid": "rd^@SAStn,",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~はともかく(として)",
+                "この洋服は、デザインはともなく、色がよくない。",
+                "意味：　Irregardless of~<br>接続：　[名]＋はともなく",
+                "この ようふく は、デザインはともなく、 いろ がよくない。"
+            ],
+            "flags": 0,
+            "guid": "r67[64LoU#",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ば~ほど",
+                "練習すればするほど上手になります。",
+                "意味：　The more~the more~(as one goes up, so does the other)<br>接続：　[動-ば]＋[動-辞書形]＋ほど<br>　　　　 [い形-ければ]＋[い形-い]＋ほど<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[な形-なら / であらば]＋[な形-な / である]＋ほど<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[名-なら / であらば]＋[名-である]＋ほど",
+                "れんしゅう すればするほど じょうず になります。"
+            ],
+            "flags": 0,
+            "guid": "eb>|3c2ZFI",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~はもちろん / ~はもとより",
+                "私が生まれた村は、電車はもちろん、バスも通っていない。",
+                "意味：　Even~ ; Of course~<br>接続：　[名]＋はもちろん<br>注意：　「~はもとより」is formal language",
+                "わたし が うまれた むら は、 でんしゃ はもちろん、バスも とおっていない。"
+            ],
+            "flags": 0,
+            "guid": "l/[lVLbxL;",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~はんめん反面 / ~はんめん半面",
+                "この薬はよく効く反面、副作用がある。 ",
+                "意味：　On one side~ ; On the other side~<br>接続：　[動・い形・な形・名]の名詞修飾型＋反面　＜[な形；名]don't use [だ]. [~である]can be used.＞",
+                "この くすり はよく きく はんめん 、 ふくさよう がある。"
+            ],
+            "flags": 0,
+            "guid": "br+)NDj#VB",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~べき / ~べきだ",
+                "書く前に注意すべき点を説明します。",
+                "意味：　Should~<br>接続：　[動-辞書形]＋べき　＜「する」becomes 「すべき」＞",
+                "かく まえ に ちゅうい すべき てん を せつめい します。"
+            ],
+            "flags": 0,
+            "guid": "r&&tGm/`BY",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~べきではない",
+                "先生のお宅に、こんな夜中に電話するべきではない",
+                "意味：　Shouldn’t~<br>接続：　[動-辞書形]＋べきではない　＜「する」becomes 「するべきではない」＞",
+                "せんせい のお たく に、こんな やちゅう に でんわ するべきではない"
+            ],
+            "flags": 0,
+            "guid": "n/9j~uHm+D",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "(~より)ほか(は)ない / ほかしかたがない",
+                "だれにも頼めないから、自分でやるほかはない。",
+                "意味：　Only~ ; just~ (there is no other way)<br>接続：　[動-辞書形]＋ほかない<br>類語：　「~しかない」",
+                "だれにも たのめないから、 じぶん でやるほかはない。"
+            ],
+            "flags": 0,
+            "guid": "c92$AsrH!0",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ほど / ~ほどだ / ~ほどの",
+                "会場にあふれるほど、ギタ-を持った若者が集まっていた。",
+                "意味：　To the extent (point) that~<br>接続：　[動-辞書形 / ない形-ない；い形-い；な形-な；名]＋ほど",
+                "かいじょう にあふれるほど、ギタ-を もった わかもの が あつまっていた。"
+            ],
+            "flags": 0,
+            "guid": "r.W1BnCkHy",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ほど~はない",
+                "仲のいい友達と旅行するほど楽しいことはない",
+                "意味：　Nothing is more~ than~<br>接続：　[動-辞書形；名]＋ほど…ない<br>類語：　「くらい」のＡの意味",
+                "なか のいい ともだち と りょこう するほど たのしいことはない"
+            ],
+            "flags": 0,
+            "guid": "etNDB9?U-W",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ほど",
+                "相撲では、太っているほど有利だ。",
+                "意味：　(as one thing changes, so does the other)<br>接続：　[動-辞書形；い形-い；な形-な；名]＋ほど<br>",
+                "すもう では、 ふとっているほど ゆうり だ。"
+            ],
+            "flags": 0,
+            "guid": "mG:6ySIE*0",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~まい / ~まいか",
+                "A) あの小さな地震が続いている。大きい地震が起こるのではあるまいか。<br />B) こんなまずいレストランへは二度と来るまい。",
+                "接続：　[動-辞書形]＋まい<br />A 意味：　Probably not~<br />B意味：　 Will not~<br />注意：&nbsp;&nbsp;Use 「~まいと思っているらしい / ~まいと思っているようだ」when subject is Third Person.",
+                "A)あの ちいさな じしん が つづいている。 おおきい じしん が おこるのではあるまいか。<br /> B)こんなまずいレストランへは にどと くるまい。"
+            ],
+            "flags": 0,
+            "guid": "n+f3*DL]*E",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "JLPT2",
+                "grammar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~む向きだ / ~向きに / ~向きの",
+                "このスキ-場は初心向きです。",
+                "意味：&nbsp;&nbsp;Suitable for~<br>接続：　[名]＋向きだ",
+                "このスキ- じょう は しょしん&nbsp;&nbsp;むきです。"
+            ],
+            "flags": 0,
+            "guid": "kMv2+IYftV",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~向けだ / ~向けに / ~向けの",
+                "ここにある軽量のクリスマスカ-ドは、みんな海外向けだ。",
+                "意味：　Bound for~ ; Made for~<br>接続：　[名]＋向けだ",
+                "ここにある けいりょう のクリスマスカ-ドは、みんな かいがい&nbsp;&nbsp;むけだ。"
+            ],
+            "flags": 0,
+            "guid": "rzO1*X~K@)",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~もかまわず",
+                "人の迷惑もかまわらず、電車の中で携帯電話で話している人がいる。",
+                "意味：　Regardless of~<br>接続：　[名]＋もかまわず<br>参考：　ところかまわず&nbsp;&nbsp;indiscriminately; no matter where",
+                "ひと の めいわく もかまわらず、 でんしゃ の なか で けいたい&nbsp;&nbsp;でんわ で はなしている ひと がいる。"
+            ],
+            "flags": 0,
+            "guid": "h!LwBAdT|=",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~も~なら~も / ~も~ば~も",
+                "父はお酒も飲めばタバコも吸うので、健康が心配だ。",
+                "意味：　 Neither~or~ ; Both~and~<br>接続：　[名]＋も＋[動-ば；い形-ければ；な形-なら]＋[名]＋も",
+                "ちち はお さけ も のめばタバコも すうので、 けんこう が しんぱい だ。"
+            ],
+            "flags": 0,
+            "guid": "g&3MsZ@gnu",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~もの",
+                "「一人で行ける。」「うん、大丈夫、地図を持っているもの。」",
+                "意味：　Because~ (give a reason to an explanation)<br>接続：　[動・い形・な形・名]の普通形＋にしろ　＜sometimes conjugated with「です」「ます」＞<br>注意：　Used in conversations by women and children.&nbsp;&nbsp;「~もん」is more informal",
+                "「一 にん で いける。」「うん、 だいじょうぶ 、 ちず を もっているもの。」"
+            ],
+            "flags": 0,
+            "guid": "gjqTaiD!jo",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~もの(です)か",
+                "あの人が人の忠告なんか聞くものですか。",
+                "意味：　By no means~ ; Not~at all<br>接続：　[動・い形・な形・名]の名詞修飾型＋ものか　＜[名-の] uses [名-な]＞<br>類語：　When spoken, or between friends 「~もんか」or「~もんですか」is used",
+                "あの ひと が ひと の ちゅうこく なんか きくものですか。"
+            ],
+            "flags": 0,
+            "guid": "A|>[sfJ/m",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ ものがある",
+                "この絵には人を引きつけるものがある。",
+                "意味：　Feel like~<br>接続：　[動・い形・な形・名]の名詞修飾型＋ものがある",
+                "この え には ひと を ひきつけるものがある。"
+            ],
+            "flags": 0,
+            "guid": "k[2Z.Q9wlk",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ものだ / ~ものではない",
+                "A) あんな大事故にあって、よく助かったものだ。<br />B) 地震のときは、だれでもあわてるものだ<br />C) 人の話はよく聞くものです。<br />D) 子供のころ、いたずらをして、よく父に叱られたものだ。",
+                "A 意味：　show admiration ; grief ; a heart felt feeling<br />　接続：　[動・い形・な形]の名詞修飾型＋ものだ<br />B意味：　express something as common sense<br />　接続：　Same as A<br />C意味：　 suggest something ; give a light command<br />　接続：　[動-辞書形]＋ものだ<br />D意味：　remember a past happening or occurrence<br />　接続：　 [動・い形・な形]の普通形の過去＋ものだ<br />",
+                "A)あんな だい&nbsp;&nbsp;じこ にあって、よく たすかったものだ。<br /> B) じしん のときは、だれでもあわてるものだ<br /> C) じん の はなし はよく きくものです。<br /> D) こども のころ、いたずらをして、よく ちち に しかられたものだ。"
+            ],
+            "flags": 0,
+            "guid": "}%+dX^|vf",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ものだから",
+                "事故で電車が遅れたものだから、遅くなったすみません。",
+                "意味：　Because~ (give a reason(excuse)<br>接続：　[動・い形・な形・名]の名詞修飾型＋ものだから　*(名- の)uses(名-である)",
+                "じこ で でんしゃ が おくれたものだから、 おそくなったすみません。"
+            ],
+            "flags": 0,
+            "guid": "t2$)C-+{U,",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ものなら",
+                "父の病気が治るものなら、どんな高価な薬でも手に入れたい。",
+                "意味：　 If~(wish for something unattainable ; tell someone it is impossible)<br>接続：　[動-辞書形]＋ものなら<br>注意：　Often used together with a \"be possible\" meaning verb. 「もんなら」is used in conversations.<br>",
+                "ちち の びょうき が なおるものなら、どんな こうか な くすり でも て に いれたい。"
+            ],
+            "flags": 0,
+            "guid": "l^p%sykd50",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ものの",
+                "免許は取ったものの、車が買えない。",
+                "意味：　Though~<br>接続：　[動・い形・な形]の名詞修飾型＋ものの<br>注意：　「~とはいうものの」is often used.&nbsp;&nbsp;Especially with nouns [名＋とはいうものの] \t<br>",
+                "めんきょ は とったものの、 くるま が かえない。"
+            ],
+            "flags": 0,
+            "guid": "o~>rol$js`",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~やら~やら",
+                "帰国前は飛行機の予約をするやらおみやげを買うやらで忙しい。",
+                "意味：　~And~among other things (etc)<br>接続：　[動-辞書形；い形-い；名]＋やら＋[動-辞書形；い形-い；名]＋やら<br>",
+                "きこく&nbsp;&nbsp;まえ は ひこうき の よやく をするやらおみやげを かうやらで いそがしい。"
+            ],
+            "flags": 0,
+            "guid": "fk7k+hPAnK",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ようがない / ~ようもない",
+                "木村さんは今どこにいるのか分からないので、連絡しようがない。",
+                "意味：　No way to~<br>接続：　[動-ます形]＋ようがない",
+                "きむら さんは いま どこにいるのか わからないので、 れんらく しようがない。"
+            ],
+            "flags": 0,
+            "guid": "uZ#sG81|1R",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ような / ~ように",
+                "A) ここに書いてあるように申し込み書に記入してください。<br />B) この本は小学生でも読めるようにルビがつけてあります。",
+                "Ａ意味：　Like~ &lt;show an example&gt;<br />　接続：　[動・名]の名詞修飾型＋ように<br />Ｂ意味：　So that~ &lt;show a goal(objective)&gt;<br />&nbsp;&nbsp;接続：　[動-辞書形 / ない形-ない]＋ように<br />参考：　魚のように泳ぎたい。&lt;metaphor&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　かれは部屋にいないようです。&lt;a guess&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　ここに、タバコを吸わないようにと書いてあります。&lt;indirect command&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　自転車に乗れるようになりました。&lt;show change&gt; \t",
+                "A)ここに かいてあるように もうしこみ しょ に きにゅう してください。<br /> B)この ほん は しょうがくせい でも よめるようにルビがつけてあります。"
+            ],
+            "flags": 0,
+            "guid": "sT{RW?p>RG",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~わけがない / ~わけはない",
+                "あんな下手な絵が売れるわけがない。",
+                "意味：　No reason for~<br>接続：　[動・い形・な形・名]の名詞修飾型＋わけがない<br>",
+                "あんな へた な え が うれるわけがない。"
+            ],
+            "flags": 0,
+            "guid": "keI@`czyBh",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~わけだ",
+                "A) ジョンさんは、お母さんが日本人ですから、日本語が上手なわけです。<br>B) ５パ-セントの値引きというと、１万円の物は9,500円になるわけですね。",
+                "接続：　 [動・い形・な形]の名詞修飾型＋わけだ<br>A意味：　state a reason why something is<br>B意味：　It means that",
+                "A)ジョンさんは、お かあさん が にっぽんじん ですから、 にほんご が じょうず なわけです。<br /> B)５パ-セントの ねびきというと、１ まん&nbsp;&nbsp;えん の もの は 9, 500 えん になるわけですね。"
+            ],
+            "flags": 0,
+            "guid": "kgi&%hCXSK",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ わけではない / ~わけでもない",
+                "生活に困っているわけではないが、貯金する余裕はない。",
+                "意味：　It doesn’t mean that~<br>接続：　[動・い形・な形]の名詞修飾型＋わけではない",
+                "せいかつ に こまっているわけではないが、 ちょきん する よゆう はない。"
+            ],
+            "flags": 0,
+            "guid": "sY<x2K.l*?",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2",
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~わけにはいかない / ~わけにもいかない",
+                "A) 絶対に他の人に言わないと約束したので、話すわけにはいかない。<br>B) 明日試験があるので、勉強しないわけにはいかない。",
+                "A意味：　Mustn’t<br>　接続：　[動-辞書形]＋わけにはいかない<br>B意味：　Must~<br>　接続：　[動-ない形-ない]＋わけにはいかい<br>",
+                "A) ぜったい に た の ひと に いわないと やくそく したので、 はなすわけにはいかない。<br /> B) あした&nbsp;&nbsp;しけん があるので、 べんきょう しないわけにはいかない。"
+            ],
+            "flags": 0,
+            "guid": "tX{gxSAdp<",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "わり(に)は",
+                "私はたくさん食べるわりに太らない。",
+                "意味：　Although~ ; In spite of~<br>接続：　[動・い形・な形・名]の普通形＋わりに<br>類語：　「~にしては」 \t",
+                "わたし はたくさん たべるわりに ふとらない。"
+            ],
+            "flags": 0,
+            "guid": "oI6n:={d)U",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~をきっかけとして / ~をきっかけに(して)",
+                "留学をきっかけに、自分の国についていろいろ考えるようになった。",
+                "意味：　Through~ ; By~ (something happens unexpectedly through a chance encounter)<br>接続：　[名]＋をきっかけに",
+                "りゅうがく をきっかけに、 じぶん の くに についていろいろ かんがえるようになった。"
+            ],
+            "flags": 0,
+            "guid": "ihL_;ahv#,",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~をけいき契機として / ~を契機に(して)",
+                "オイルショックを契機に新エネルギ-の研究が進められた。",
+                "意味：　Since~ (Because a thing happened, a big change has occurred)<br>接続：　[名]＋を契機に<br>",
+                "オイルショックを けいき に しん エネルギ-の けんきゅう が すすめられた。"
+            ],
+            "flags": 0,
+            "guid": "t,Y5CR!|#Z",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~をこめて",
+                "母は私のために心をこめて、せ-タ-を編んでくれた。",
+                "意味：　 Full of~ ; Loaded with~ &lt;put emotion into&gt;<br>接続：　[名]＋をこめて",
+                "はは は わたし のために こころ をこめて、せ-タ-を あんでくれた。"
+            ],
+            "flags": 0,
+            "guid": "pQx`<f+Nz;",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~ をちゅうしん中心として / ~を中心に(して)",
+                "駅を中心にたくさんの商店が集まってる。",
+                "意味：　Be (at) the center of ~ ; Be the focus of~<br>接続：　[名]＋を中心に",
+                "えき を ちゅうしん にたくさんの しょうてん が あつまってる。"
+            ],
+            "flags": 0,
+            "guid": "eHk3^GtdGD",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~をつう通じて / ~をとお通して",
+                "A) あの地方は、１年を通じて雨が多い。<br>B) 社長は忙しいから、秘書を通じて頼んだほうがいい。",
+                "接続：　[名]＋を通じて<br>A意味：　Throughout~<br>Ｂ意味：　Via~ ; Through~",
+                "A)あの ちほう は、１ ねん を つうじて&nbsp;&nbsp;あめ が おおい。<br /> B) しゃちょう は いそがしいから、 ひしょ を つうじて&nbsp;&nbsp;たのんだほうがいい。"
+            ],
+            "flags": 0,
+            "guid": "mlhO.yi#9l",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~を~とした / ~を~として / ~を~とする",
+                "チンさんを先生として、中国語の勉強会を開いた。",
+                "意味：　As~<br>接続：　[名]＋を＋[名]＋として<br>注意：　Nouns that show aim, postion, role, type,etc. come before 「として」",
+                "チンさんを せんせい として、 ちゅうごく&nbsp;&nbsp;ご の べんきょう&nbsp;&nbsp;かい を ひらいた。"
+            ],
+            "flags": 0,
+            "guid": "q9J)8XWt$E",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~をと問わず",
+                "留学生ならどなたでも国籍、年齢、性別を問わず申し込めます。",
+                "意味：　Regardless of~<br>接続：　[名]＋を問わず<br>",
+                "りゅうがくせい ならどなたでも こくせき 、 ねんれい 、 せいべつ を とわず もうしこめます。"
+            ],
+            "flags": 0,
+            "guid": "hC(Lq)<_jm",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~をはじめ / ~をはじめすると",
+                "上野動物園にはパンダをはじめ、子供達に人気がある動物がたくさんいます。<br>",
+                "意味：　Not only~ but also~ ; ~among other things<br>接続：　[名]＋をはじめ",
+                "うえの&nbsp;&nbsp;どうぶつ&nbsp;&nbsp;えん にはパンダをはじめ、 こども&nbsp;&nbsp;たち に にんき がある どうぶつ がたくさんいます。"
+            ],
+            "flags": 0,
+            "guid": "qs)6E<_2=K",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~をめぐって / ~をめぐる",
+                "その法案の賛否をめぐって、活発な議論がかわされた。",
+                "意味：　Circulate~ ; around~<br>接続：　[名]＋をめぐって<br>",
+                "その ほうあん の さんぴ をめぐって、 かっぱつ な ぎろん がかわされた。"
+            ],
+            "flags": 0,
+            "guid": "k/@j}y:>mZ",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "grammar",
+                "JLPT2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "~をもとに / ~をもとにして",
+                "ファンの人気投票をもとに審査し、今年の歌のベストテンが決まります。",
+                "意味：　Based on~<br>接続：　[名]＋をもとに<br>",
+                "ファンの にんき&nbsp;&nbsp;とうひょう をもとに しんさ し、 ことし の うた のベストテンが きまります。"
+            ],
+            "flags": 0,
+            "guid": "mAqB2!q^sc",
+            "newlyAdded": false,
+            "note_model_uuid": "425e1058-d62a-11ea-aa9d-28c63f80549d",
+            "tags": [
+                "JLPT2",
+                "grammar"
+            ]
+        }
+    ]
+}
