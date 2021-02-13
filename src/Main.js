@@ -10,6 +10,8 @@ const [valueDeckName, setValueDeckName] = useState('N2_Bumpo')
 const [valueQuestionDuration, setValueQuestionDuration] = useState('1')
 const [valueAnswerDuration, setValueAnwserDuration] = useState('1')
 const [isCounterHidden,setIsCounterHidden] = useState(false)
+const [valueQuestionSize, setValueQuestionSize] = useState('50px')
+const [valueAnswerSize, setValueAnswerSize] = useState('30px')
 //const [dataDeck, setDataDeck] = useState([])
 
 var lien = 'https://maanan.xyz/panorama/deck_N2_Bunpo.json'
@@ -67,6 +69,44 @@ const valueDuration = [
     }
   ]
 
+const questionFontSize = [
+  {
+    value: '20px',
+    label: '20'
+  },
+  {
+    value: '30px',
+    label: '30'
+  },
+  {
+    value: '40px',
+    label: '40'
+  },
+  {
+    value: '50px',
+    label: '50'
+  },
+]
+
+const answerFontSize = [
+  {
+    value: '20px',
+    label: '20'
+  },
+  {
+    value: '30px',
+    label: '30'
+  },
+  {
+    value: '40px',
+    label: '40'
+  },
+  {
+    value: '50px',
+    label: '50'
+  },
+]
+
 const handleChangeDeck = (event) => {
   setValueDeckName(event.target.value)
 }
@@ -83,6 +123,14 @@ const handleChangeIsHidden = (event) => {
   setIsCounterHidden(event.target.value)
 }
 
+const handleChangeQuestionFontSize = (event) => {
+  setValueQuestionSize(event.target.value)
+}
+
+const handleChangeAnswerFontSize = (event) => {
+  setValueAnswerSize(event.target.value)
+}
+
 const handleClickButton = () => {
 
   if (valueDeckName !== ''){
@@ -93,7 +141,9 @@ const handleClickButton = () => {
     //deckData: dataDeck,
     questionDuration: valueQuestionDuration,
     answerDuration: valueAnswerDuration,
-    isCounterHidden: isCounterHidden
+    isCounterHidden: isCounterHidden,
+    questionFontSize: valueQuestionSize,
+    answerFontSize: valueAnswerSize
   })
 
   } else {console.log('error...')}
@@ -147,12 +197,29 @@ useEffect(()=>{
         onChange={handleChangeAnswerDuration}
         value={valueAnswerDuration}
     />
+    <br/>
+    OPTIONS
+    <br/>
     <div>Show or hide the counter?</div>
     <Select
         label='Counter'
         data={dataIsHidden}
         onChange={handleChangeIsHidden}
         value={isCounterHidden}
+    />
+    <div>Question: Font size</div>
+    <Select
+        label='Question Size'
+        data={questionFontSize}
+        onChange={handleChangeQuestionFontSize}
+        value={valueQuestionSize}
+    />
+    <div>Answer: Font size</div>
+    <Select
+        label='Answer Size'
+        data={answerFontSize}
+        onChange={handleChangeAnswerFontSize}
+        value={valueAnswerSize}
     />
     <Button
         label="GO!"

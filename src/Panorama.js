@@ -3,45 +3,52 @@ import axios from 'axios'
 import deck_N2_Bunpo from './deck_N2_Bunpo.json'
 import deck_N1_Bunpo from './deck_N1_Bunpo.json'
 
-const styles ={
-  questionCSS: {
-    fontSize: '50px',
-    border: '1px solid',
-    padding: 10,
-    margin: 10,
-    borderRadius: 20,
-    backgroundColor: '#F0F8FF'
-  },
-  answerCSS: {
-    fontSize: '25px',
-    border: '1px solid',
-    backgroundColor: '#FAEBD7',
-    padding: 10,
-    margin: 10,
-    borderRadius: 20,
-  },
-  main:{
-    display: 'flex',
-    flexDirection: 'column',
-    //background: 'red',
-    height: 'auto',
-    padding:'10px'
-  },
-  bouton: {
-    //background:'blue',
-    display: 'flex',
-    width: '100%',
-    justifyContent: 'flex-end'
 
-  }
-}
 
 export default function Panorama(props){
 
-var deck = props.location.state.deckName
-var questionDuration = props.location.state.questionDuration
-var answerDuration = props.location.state.answerDuration
-var isCounterHidden = props.location.state.isCounterHidden
+  var deck = props.location.state.deckName
+  var questionDuration = props.location.state.questionDuration
+  var answerDuration = props.location.state.answerDuration
+  var isCounterHidden = props.location.state.isCounterHidden
+  var questionFontSize = props.location.state.questionFontSize
+  var answerFontSize = props.location.state.answerFontSize
+
+  const styles ={
+    questionCSS: {
+      fontSize: questionFontSize,
+      border: '1px solid',
+      padding: 10,
+      margin: 10,
+      borderRadius: 20,
+      backgroundColor: '#F0F8FF'
+    },
+    answerCSS: {
+      fontSize: answerFontSize,
+      border: '1px solid',
+      backgroundColor: '#FAEBD7',
+      padding: 10,
+      margin: 10,
+      borderRadius: 20,
+    },
+    main:{
+      display: 'flex',
+      flexDirection: 'column',
+      //background: 'red',
+      height: 'auto',
+      padding:'10px'
+    },
+    bouton: {
+      //background:'blue',
+      display: 'flex',
+      width: '100%',
+      justifyContent: 'flex-end'
+
+    }
+  }
+
+
+
 
 switch (deck) {
 
@@ -147,6 +154,12 @@ console.log(
 <>
 <div>
 
+        <div style={styles.bouton}>
+              <button onClick={handleClick}>
+              Back to menu
+              </button>
+        </div>
+
         {isCounterHidden &&    <div>
               counter question: {counterQuestion}<br/>
               counter réponse: {counterAnswer}
@@ -178,11 +191,7 @@ console.log(
 
         <br/>
 
-        <div style={styles.bouton}>
-              <button onClick={handleClick}>
-              Back to menu
-              </button>
-        </div>
+
 
 </div>
 </>
