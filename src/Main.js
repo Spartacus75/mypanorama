@@ -6,7 +6,7 @@ import {Link, useHistory} from 'react-router-dom'
 
 function App() {
 
-const [valueDeckName, setValueDeckName] = useState('N2_Bumpo')
+const [valueDeckName, setValueDeckName] = useState('deck_N2_Bunpo')
 const [valueQuestionDuration, setValueQuestionDuration] = useState('1')
 const [valueAnswerDuration, setValueAnwserDuration] = useState('1')
 const [isCounterHidden,setIsCounterHidden] = useState(false)
@@ -28,7 +28,17 @@ const dataTable = [
       value:'deck_N2_Bunpo',
       label: 'N2 Bunpo',
       answer: 'okokokok'
-    }
+    },
+    {
+      value:'deck_Ar_Debutant',
+      label: 'Arabe',
+      answer: 'okokokok'
+    },
+    {
+      value:'deck_Jp_N1_Kanji',
+      label: 'N1 Kanji',
+      answer: 'okokokok'
+    },
   ]
 
 const dataIsHidden =[

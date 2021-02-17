@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 import deck_N2_Bunpo from './deck_N2_Bunpo.json'
 import deck_N1_Bunpo from './deck_N1_Bunpo.json'
+import deck_Ar_Debutant from './deck_Ar_Debutant.json'
 
 
 
@@ -43,7 +44,10 @@ export default function Panorama(props){
       display: 'flex',
       width: '100%',
       justifyContent: 'flex-end'
-
+    },
+    image:{
+      height: '100%',
+      width: '100%'
     }
   }
 
@@ -65,6 +69,49 @@ switch (deck) {
                 //console.log('la valeur est: ', deck_N2_Bunpo);
 
                 break;
+
+  case 'deck_Ar_Debutant':
+                var myDeck = deck_Ar_Debutant
+                var longueur = myDeck.notes.length
+                //console.log('la valeur est: ', deck_N2_Bunpo);
+
+                break;
+
+  case 'deck_Jp_N1_Kanji':
+
+                //on va construire un tableau en dur
+
+                var nombreEntree = 3;
+                var myDeck = [];
+
+                for (var i = 1; i < nombreEntree+1; i++) {
+                  myDeck.push({
+                    link: `https://www.maanan.xyz/resources/N1_Kanji/img_${i}.JPG`,
+                    id: i
+                  });
+                }
+
+/*                var myDeck = [
+                  {
+                    link: 'https://www.maanan.xyz/resources/N1_Kanji/img_1.JPG',
+                    id:0
+                  },
+                  {
+                    link: 'https://www.maanan.xyz/resources/N1_Kanji/img_2.JPG',
+                    id:1
+                  },
+                  {
+                    link: 'https://www.maanan.xyz/resources/N1_Kanji/img_3.JPG',
+                    id:2
+                  },
+                ]*/
+
+                var longueur = myDeck.length
+                //alert(longueur)
+                //console.log('la valeur est: ', deck_N2_Bunpo);
+
+                break;
+
 
   default:
                 var myDeck = deck_N2_Bunpo
@@ -126,7 +173,7 @@ const timerAnswer =
 
 
 
-
+//console.log(myDeck)
 
 
 return () => {
@@ -148,10 +195,15 @@ console.log(
 
 )
 
+console.log('XXX - ', myDeck)
+
 
   return (
 
 <>
+{/*WHEN FROM ANKI*/}
+
+{deck !=='deck_Jp_N1_Kanji' &&
 <div>
 
         <div style={styles.bouton}>
@@ -168,33 +220,76 @@ console.log(
         {counterQuestion >0 ?
           <div>{/*counterQuestion} second(s) for the questions - Question ID: {Math.round(questionId*longueur)*/}
           <br/>
-          <p style={styles.questionCSS}>{myDeck.notes[Math.round(questionId*longueur)].fields[0]}</p>
+          <p style={styles.questionCSS} dangerouslySetInnerHTML={{__html:myDeck.notes[Math.round(questionId*longueur)].fields[0]}}></p>
           </div>
           :
-          <p style={styles.questionCSS}>{myDeck.notes[Math.round(questionId*longueur)].fields[0]}</p>
+          <p style={styles.questionCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*longueur)].fields[0]}}></p>
 
         }
         <br/>
-        </div>
+</div>}
 
-        <div style={styles.main}>
+{deck !=='deck_Jp_N1_Kanji' &&
+<div style={styles.main}>
 
 
 
 
         {isAnswer ? <div>{/*On affiche la réponse pendant {counterAnswer}*/}
         <br/>
-        <div style={styles.answerCSS}>{myDeck.notes[Math.round(questionId*longueur)].fields[1]}</div>
-{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS}>{myDeck.notes[Math.round(questionId*longueur)].fields[2]}</div> : ''}
-{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS}>{myDeck.notes[Math.round(questionId*longueur)].fields[3]}</div> : ''}
+{true &&       <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*longueur)].fields[1]}}>
+        </div>}
+
+{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*longueur)].fields[2]}}></div> : ''}
+{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*longueur)].fields[3]}}></div> : ''}
         </div> : ' '}
 
         <br/>
 
 
 
+</div>}
+
+{/*WHEN FROM WEB*/}
+
+{deck == 'deck_Jp_N1_Kanji' &&
+
+<div>
+
+    <div style={styles.bouton}>
+          <button onClick={handleClick}>
+          Back to menu
+          </button>
+    </div>
+
+    {isCounterHidden &&    <div>
+          counter question: {counterQuestion}<br/>
+          counter réponse: {counterAnswer}
+        </div>}
+
+{counterQuestion >=0 ?
+    <div>
+
+    <img
+         src={myDeck[Math.round((longueur-1)*questionId)].link}
+         alt="Picture not loaded yet..."
+         style={styles.image}
+         />
+
+
+    </div> :''}
+
+
 </div>
+
+}
+
+
+
+
 </>
+
+
 
   )
 
