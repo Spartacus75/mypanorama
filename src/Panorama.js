@@ -81,7 +81,7 @@ switch (deck) {
 
                 //on va construire un tableau en dur
 
-                var nombreEntree = 3;
+                var nombreEntree = 23;
                 var myDeck = [];
 
                 for (var i = 1; i < nombreEntree+1; i++) {
