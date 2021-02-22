@@ -1,7 +1,7 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "e3baea54-6c43-11eb-bdeb-28c63f80549d",
+    "crowdanki_uuid": "8d6e0a9a-7460-11eb-855a-28c63f80549d",
     "deck_config_uuid": "517b4894-6bbf-11eb-9dbd-28c63f80549d",
     "deck_configurations": [
         {
@@ -639,6 +639,266 @@
             ],
             "flags": 0,
             "guid": "qrUsKijIqL",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vru　＋　までもなく",
+                "<div>環境保護の必要性は、改めて世論に問うまでもない。</div><div><br></div><div>この程度のことなら、社長の指示を仰ぐまでもない。</div><br><div><br></div><div>Pas besoin de faire... parceque c est evident</div>"
+            ],
+            "flags": 0,
+            "guid": "EHiT5pz+CA",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+「の」+　いかん<div><br></div><div>N +　の　＋　いかんにかかわらず　/　によらず　/　を問わず</div><div><br></div><div>いかんせん～　/　いかんともしがたい</div>",
+                "<div>今回のツアーは政治情勢いかんによっては、中止になる場合もあります。<br></div><div><br></div><div>戦争を回避できるかどうかは、今回の会談の結果いかんにかかっている。</div><div><br></div><div>N+「の」+　いかん<br></div><div>Ce qui se passera depend des circonstances ou de la nature de ...</div><div><br></div><div>お押し込み後、理由のいかんにかかわらず、キャンセルできませんので了承ください。</div><div><br></div><div>N +　の　＋　いかんにかかわらず　/　によらず　/　を問わず<br></div><div>Independamment des circonstances ou de la nature De。。。</div><div><br></div><div>彼女の誕生日だというのにいかんせん給料日前で財布の中は空っぽだ。</div><div><br></div><div>いかんせん～　/　いかんともしがたい<br></div><div>C est pas bien/desagreable mais rien ne peut etre fait pour ca</div><div><br></div><div><br></div><div><br></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "o:gNm!~%Vb",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "V-ないまでも",
+                "<div>時給１０００円はもらえないまでも８５０円はもらいたい。</div><div><br></div><div>初めてテントに寝たが、快適とはいえないまでも、思ったほど悪くはなかった。</div><div><br></div><div>A-ないまでもB<br></div><div>Meme si ce n est pas du meme niveau que A, B est au environ de ...</div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "x>%a8f2Nk4",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+といい　+　N　+　といい",
+                "このホテルは全く期待はれだった。サービスといい、料理といい、酷いものだ。<br><div><br></div><div>Au global, c est comme ca en donnant deux exemples. Utilise pour donne son sentiment peronnel「Quand　C est horrible ou merveilleux」</div>"
+            ],
+            "flags": 0,
+            "guid": "QEM]v:~J7<",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N　+　といったところ",
+                "<div>人気役者の浮世絵は、今日でいえばアイドル写真といったところだ。</div><div><br></div><div>私が生まれたのは歴史がある古い町で、日本なら奈良や京都といったところです。</div><div><br></div><div>Pour reformuler et donner un exemple pour faciliter la comprehension par l utilisateur</div>"
+            ],
+            "flags": 0,
+            "guid": "L|]g[GnN-6",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pl +　というか/というか/というべきか　+　Pl　+　というか<div>Pl +　というか　「Seul]<br></div>",
+                "このお弁当、量が少ないというか味が薄いというか、とにかく物たりないんだよ。<br><div><br></div><div><div>Meaning: not sure whether [A] or [B].</div><div>This grammar point expresses that one does not know whether [A] or [B] is the better or more correct choice.<br>S utilise aussi qd on veut eviter de dire qqchose Directement.</div></div>"
+            ],
+            "flags": 0,
+            "guid": "N~Mfa*o,!N",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pl+のいいことに",
+                "夜間、人気がないのをいいことに、トンネル内の落書きはエスカレートする一方です。<div><br></div><div>どうやらうちの猫。飼い主の留守をいいことにいたずらをしたらしく、部屋がめちゃくちゃだ。<br><div><br></div><div>Exprime un sentiment forT Pour dire que qq1 a profite d une situation et a fait qqchose de mal</div></div>"
+            ],
+            "flags": 0,
+            "guid": "O&Qj6DzTv&",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Phrase　+か",
+                "<div>こんなくだらない番組、3時間もみていられるか。</div><div><br></div><div>私は医者なんです。　薬がないからと言って、患者を放っておけますか。</div><br><div>Exprime une negation tres forte au niveau emotionnel　Sous forme d une question。</div><div>「Non,　Ce n&nbsp; est absolument pas...」</div>"
+            ],
+            "flags": 0,
+            "guid": "l*{cbE;hd~",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pl + にもほどがあります",
+                "<div>両親が苦労して送ってくれたお金を遊びに使うなんて、親不孝にもほどがあります。</div><div><br></div><div>中身を減らして、２割引きと言って売るなんて、客を馬鹿にする</div><div>にもほどがあります。</div><br><div>Il y a une limite a,　Cela va trop loin dans&nbsp;</div>"
+            ],
+            "flags": 0,
+            "guid": "KVTUk3@vz8",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pl　＋　ならまだしも<div><br></div><div>*「だけ」「から」「で」　などにも接続する</div>",
+                "<div>スニーカーならまだしも、サンダルやハイヒールで登山なんて無茶だ。</div><div><br></div><div>電気代が上がった。それだけならまだしも、４月から家賃を２千上げると言われて、困っている。</div><div><br></div><div>Je penseQue je peux accepter A&nbsp; mais je ne peux pas accepter B</div>"
+            ],
+            "flags": 0,
+            "guid": "OZYg_oHf6,",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+以前",
+                "A.　宇宙旅行ってどうやって予約するんだろう。<div>B。　予約の仕方以前、お前、いくらかかるかしってるのか。</div><div><br><div>Nous sommes loin de ..., plutot a un stade basique<br></div></div><div><br></div><div>S utilise aussi avec les expressions 「出来る出来ない」　Ou du type　「大きい小さい」</div>"
+            ],
+            "flags": 0,
+            "guid": "hLp@,Ttb#2",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vる+べくして　＋Vた",
+                "従業員の幸福と顧客の満足を追求したこのスーパーは、成功すべくして成功したと言えよう。<br><div><br></div><div>Ce nest pas une surprise que,</div><div><br></div><div>Note.</div><div>する+べくして　＝　すべくして</div>"
+            ],
+            "flags": 0,
+            "guid": "c6b-F6cTq|",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N+が+N「な」だけに<div><br></div><div>Le nom est le meme！ATTENTION POINTAREVOIR CAR　PAS　COMPRIS</div>",
+                "これは国王級の仏像なのです。物が物だけに普通の運送業者に頼めません。<br><div><br></div><div>A est special　Donc</div>"
+            ],
+            "flags": 0,
+            "guid": "M;@Fg/I;!#",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "N1+といわず+N2+といわず",
+                "社会的な田中君は先輩と言わず後輩と言わず誰彼なしに気軽に声をかける人だ。<br><div><br></div><div>A et B et toutes les choses</div>"
+            ],
+            "flags": 0,
+            "guid": "zJ<euwJUcj",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "～たら～たで",
+                "彼女ったら、メールの返信が遅いと文句を言うし早かったら早いで「ちゃんと読んでないじゃない？」って疑うんだ。<br><div><br></div><div>Avec ou sans A,Ce n est pas toujours bon</div>"
+            ],
+            "flags": 0,
+            "guid": "qY/,P0f)(>",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vru/N　　+　　にたえない",
+                "言い訳ばかりしている政治家の話はきくにたえない。<br><div><br></div><div>La situation est si terrible qu elle me fait mal a voir/entendre, Je nen peux pas le supporter</div>"
+            ],
+            "flags": 0,
+            "guid": "PUFx}?)fCv",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vようものなら<div><br></div><div>話し言葉で「～もんなら」</div>",
+                "近頃のアルバイトはちょっと注意しようものなら、すご「じゃあ、辞めます」と言いかねない、<br><div><br></div><div>Si on fait ca, il va se passer ca comme resultat [Et cela aura un impact negatif]</div>"
+            ],
+            "flags": 0,
+            "guid": "H7s-e,UY5n",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pl　＋　ならいざしらず",
+                "20年ならいざ知らず、今は世界中の人と瞬時にコンタクトが取れる時代ですよ。わざわざ出張しなくてもテレビ会議ですむんじゃないですか。<br><div><br></div><div>Je ne sais pas pour A, mais pour B....</div>"
+            ],
+            "flags": 0,
+            "guid": "h$665UET3m",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "V+ないものか",
+                "学校にいけない子供たちのために、何か支援はできないものだろうか。<br><div><br></div><div>Ne pourrais-je/tu pas....?　En sachant que c est difficile a faire</div><div><br></div><div>On peut avoir aussi l expression</div><div>～ものだろうか</div><div>～ものでしょうか</div>"
+            ],
+            "flags": 0,
+            "guid": "kvf|Q6AKO5",
+            "newlyAdded": false,
+            "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vる/Vない/いA/なA/N　＋　に越したことはない",
+                "がんに限らず病気の発見は早いに越したことはない。<div><br></div><div>運動は毎日続ける越したことはないですが、無理せず自分のペースですることも大切です。<br><div><br></div><div>C est mieux de , Il n y a rien de mieux que de&nbsp;</div></div>"
+            ],
+            "flags": 0,
+            "guid": "w5!d])R&eo",
             "newlyAdded": false,
             "note_model_uuid": "e3baea58-6c43-11eb-a2e6-28c63f80549d",
             "tags": []

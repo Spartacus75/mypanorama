@@ -220,10 +220,10 @@ console.log('XXX - ', myDeck)
         {counterQuestion >0 ?
           <div>{/*counterQuestion} second(s) for the questions - Question ID: {Math.round(questionId*longueur)*/}
           <br/>
-          <p style={styles.questionCSS} dangerouslySetInnerHTML={{__html:myDeck.notes[Math.round(questionId*longueur)].fields[0]}}></p>
+          <p style={styles.questionCSS} dangerouslySetInnerHTML={{__html:myDeck.notes[Math.round(questionId*(longueur-1))].fields[0]}}></p>
           </div>
           :
-          <p style={styles.questionCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*longueur)].fields[0]}}></p>
+          <p style={styles.questionCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*(longueur-1))].fields[0]}}></p>
 
         }
         <br/>
@@ -237,11 +237,11 @@ console.log('XXX - ', myDeck)
 
         {isAnswer ? <div>{/*On affiche la réponse pendant {counterAnswer}*/}
         <br/>
-{true &&       <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*longueur)].fields[1]}}>
+{true &&       <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*(longueur-1))].fields[1]}}>
         </div>}
 
-{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*longueur)].fields[2]}}></div> : ''}
-{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*longueur)].fields[3]}}></div> : ''}
+{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*(longueur-1))].fields[2]}}></div> : ''}
+{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*(longueur-1))].fields[3]}}></div> : ''}
         </div> : ' '}
 
         <br/>
