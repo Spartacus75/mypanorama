@@ -3,6 +3,7 @@ import axios from 'axios'
 import deck_N2_Bunpo from './deck_N2_Bunpo.json'
 import deck_N1_Bunpo from './deck_N1_Bunpo.json'
 import deck_Ar_Debutant from './deck_Ar_Debutant.json'
+import {tableau} from './function.js'
 
 
 
@@ -14,6 +15,7 @@ export default function Panorama(props){
   var isCounterHidden = props.location.state.isCounterHidden
   var questionFontSize = props.location.state.questionFontSize
   var answerFontSize = props.location.state.answerFontSize
+  var reviewMode = props.location.state.reviewMode
 
   const styles ={
     questionCSS: {
@@ -50,9 +52,6 @@ export default function Panorama(props){
       width: '100%'
     }
   }
-
-
-
 
 switch (deck) {
 
@@ -125,19 +124,70 @@ const [counterQuestion, setCounterQuestion] =useState(questionDuration)
 const [questionId, setQuestionId] =useState(0)
 const [isAnswer, setIsAnswer] = useState(false)
 const [counterAnswer, setCounterAnswer] =useState(answerDuration)
+const [compteur, setCompteur] = useState(0)
+const [container, setContainer] = useState(tableau(longueur))
 
-if (counterQuestion ==0 && !isAnswer) {
-  setIsAnswer(true)
-  setCounterAnswer(answerDuration)
+
+
+//console.log('longueur', longueur)
+//console.log('ID question', questionId)
+
+
+if (reviewMode=='no'){
+
+          if (counterQuestion ==0 && !isAnswer) {
+            setIsAnswer(true)
+            setCounterAnswer(answerDuration)
+
+          }
+
+          if (counterQuestion ==0 && isAnswer && counterAnswer ==0){
+            setQuestionId(Math.round((longueur-1)*Math.random()))
+            setCounterQuestion(questionDuration)
+            setIsAnswer(false)
+          }
 
 }
 
-if (counterQuestion ==0 && isAnswer && counterAnswer ==0){
-  setQuestionId(Math.random())
-  setCounterQuestion(questionDuration)
-  setIsAnswer(false)
-}
 
+if (reviewMode!=='no'){
+//'longueur' est déjà defini
+          if (counterQuestion ==0 && !isAnswer) {
+            setIsAnswer(true)
+            setCounterAnswer(answerDuration)
+
+          }
+
+          if (counterQuestion ==0 && isAnswer && counterAnswer ==0){
+
+            //on retire la question du tableau
+            for (let i = 0; i < longueur; i++){
+              if (container[i] === questionId){
+                setContainer(container.splice(i, 1))
+              }
+            }
+
+            if (container.length ==1) {setContainer(tableau(longueur))}
+
+            console.log('container', container)
+
+            //on choisit une nouvelle question dans le nouveau tableau
+            var length = container.length
+            var id = container[Math.round((length-1) * Math.random())]
+            //console.log('ID: ', id)
+            //console.log('LENGTH: ', length)
+            setQuestionId(id)
+
+
+            //setQuestionId(Math.round((longueur-1)*Math.random()))
+            setCounterQuestion(questionDuration)
+            setIsAnswer(false)
+            setCompteur(compteur+1)
+
+
+          }
+
+}
 
 
 
@@ -184,18 +234,19 @@ return () => {
 
 },[counterAnswer])
 
-console.log(
+/*console.log(
 {
   deck: deck,
   counterQuestion: counterQuestion,
   counterAnswer: counterQuestion,
   isAnswer: isAnswer,
-  questionId:questionId
+  questionId:questionId,
+  reviewMode: reviewMode
 }
 
 )
-
-console.log('XXX - ', myDeck)
+*/
+//console.log('XXX - ', myDeck)
 
 
   return (
@@ -212,6 +263,12 @@ console.log('XXX - ', myDeck)
               </button>
         </div>
 
+        {reviewMode == 'yes_show' && <div>
+                <span>Nombre de cartes totales: {longueur}</span><br/>
+                <span>Nombre de cartes vues: {compteur}</span><br/>
+                <span>Nombre de cartes restantes: {longueur-compteur}</span><br/>
+                </div>}
+
         {isCounterHidden &&    <div>
               counter question: {counterQuestion}<br/>
               counter réponse: {counterAnswer}
@@ -220,10 +277,10 @@ console.log('XXX - ', myDeck)
         {counterQuestion >0 ?
           <div>{/*counterQuestion} second(s) for the questions - Question ID: {Math.round(questionId*longueur)*/}
           <br/>
-          <p style={styles.questionCSS} dangerouslySetInnerHTML={{__html:myDeck.notes[Math.round(questionId*(longueur-1))].fields[0]}}></p>
+          <p style={styles.questionCSS} dangerouslySetInnerHTML={{__html:myDeck.notes[questionId].fields[0]}}></p>
           </div>
           :
-          <p style={styles.questionCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*(longueur-1))].fields[0]}}></p>
+          <p style={styles.questionCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[questionId].fields[0]}}></p>
 
         }
         <br/>
@@ -234,14 +291,13 @@ console.log('XXX - ', myDeck)
 
 
 
-
         {isAnswer ? <div>{/*On affiche la réponse pendant {counterAnswer}*/}
         <br/>
-{true &&       <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*(longueur-1))].fields[1]}}>
+{true &&       <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[questionId].fields[1]}}>
         </div>}
 
-{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*(longueur-1))].fields[2]}}></div> : ''}
-{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[Math.round(questionId*(longueur-1))].fields[3]}}></div> : ''}
+{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[questionId].fields[2]}}></div> : ''}
+{deck==='deck_N2_Bunpo' ? <div style={styles.answerCSS} dangerouslySetInnerHTML={{__html: myDeck.notes[questionId].fields[3]}}></div> : ''}
         </div> : ' '}
 
         <br/>
@@ -262,16 +318,20 @@ console.log('XXX - ', myDeck)
           </button>
     </div>
 
+
     {isCounterHidden &&    <div>
           counter question: {counterQuestion}<br/>
           counter réponse: {counterAnswer}
         </div>}
 
+
+
+
 {counterQuestion >=0 ?
     <div>
 
     <img
-         src={myDeck[Math.round((longueur-1)*questionId)].link}
+         src={myDeck[questionId].link}
          alt="Picture not loaded yet..."
          style={styles.image}
          />

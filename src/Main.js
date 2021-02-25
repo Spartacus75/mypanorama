@@ -12,6 +12,7 @@ const [valueAnswerDuration, setValueAnwserDuration] = useState('1')
 const [isCounterHidden,setIsCounterHidden] = useState(false)
 const [valueQuestionSize, setValueQuestionSize] = useState('50px')
 const [valueAnswerSize, setValueAnswerSize] = useState('30px')
+const [valueReview, setValueReview] = useState('no')
 //const [dataDeck, setDataDeck] = useState([])
 
 var lien = 'https://maanan.xyz/panorama/deck_N2_Bunpo.json'
@@ -117,6 +118,21 @@ const answerFontSize = [
   },
 ]
 
+const reviewData = [
+  {
+    value: 'no',
+    label: 'No'
+  },
+  {
+    value: 'yes_show',
+    label: 'Yes with counter'
+  },
+  {
+    value: 'yes_noShow',
+    label: 'Yes w/o counter'
+  }
+]
+
 const handleChangeDeck = (event) => {
   setValueDeckName(event.target.value)
 }
@@ -141,6 +157,10 @@ const handleChangeAnswerFontSize = (event) => {
   setValueAnswerSize(event.target.value)
 }
 
+const handleChangeReviewData = (event) => {
+  setValueReview(event.target.value)
+}
+
 const handleClickButton = () => {
 
   if (valueDeckName !== ''){
@@ -153,7 +173,8 @@ const handleClickButton = () => {
     answerDuration: valueAnswerDuration,
     isCounterHidden: isCounterHidden,
     questionFontSize: valueQuestionSize,
-    answerFontSize: valueAnswerSize
+    answerFontSize: valueAnswerSize,
+    reviewMode: valueReview
   })
 
   } else {console.log('error...')}
@@ -231,11 +252,20 @@ useEffect(()=>{
         onChange={handleChangeAnswerFontSize}
         value={valueAnswerSize}
     />
+    <div>Review Mode</div>
+    <Select
+        label='Review mode'
+        data={reviewData}
+        onChange={handleChangeReviewData}
+        value={valueReview}
+    />
+
     <Button
         label="GO!"
         onClick={handleClickButton}
 
     />
+
     </>
 
 
